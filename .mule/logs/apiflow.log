@@ -1,0 +1,332 @@
+2019-03-06 13:10:49,050 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'apiflow'                               +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 13:10:49,472 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2019-03-06 13:10:49,613 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2019-03-06 13:10:49,753 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2019-03-06 13:10:49,753 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.7)
+2019-03-06 13:10:49,847 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@301ec38b: startup date [Wed Mar 06 13:10:49 GMT 2019]; root of context hierarchy
+2019-03-06 13:10:51,581 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-06 13:10:52,675 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2019-03-06 13:10:53,833 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2019-03-06 13:10:53,845 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: apiflowFlow
+2019-03-06 13:10:53,845 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@17f2dd85
+2019-03-06 13:10:53,923 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: apiflowFlow.stage1
+2019-03-06 13:10:53,954 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Mule Practise\Pradyu\.mule\.\.mule\apiflow\queue-tx-log\tx1.log and C:\Mule Practise\Pradyu\.mule\.\.mule\apiflow\queue-tx-log\tx2.log
+2019-03-06 13:10:53,970 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Mule Practise\Pradyu\.mule\.\.mule\apiflow\queue-xa-tx-log\tx1.log and C:\Mule Practise\Pradyu\.mule\.\.mule\apiflow\queue-xa-tx-log\tx2.log
+2019-03-06 13:10:54,064 [main] INFO  org.mule.api.security.tls.TlsProperties - Loading configuration file: tls-default.conf
+2019-03-06 13:10:55,081 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Mule Practise\Pradyu\.mule\apps\apiflow\apiflow.xml'}]"
+2019-03-06 13:10:55,081 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Mule Practise\Pradyu\.mule\apps\apiflow\apiflow.xml'}]"
+2019-03-06 13:10:55,081 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'apiflow'                                   +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 13:10:55,081 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2019-03-06 13:10:55,094 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2019-03-06 13:10:55,439 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8081
+2019-03-06 13:10:55,454 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 13:10:55,454 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2019-03-06 13:10:55,454 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: apiflowFlow
+2019-03-06 13:10:55,454 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: apiflowFlow.stage1
+2019-03-06 13:10:55,532 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2019-03-06 13:10:55,595 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: apiflow                                               *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   JMX Agent                                                        *
+*   DevKit Extension Information                                     *
+*   Batch module default engine                                      *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2019-03-06 13:11:26,436 [[apiflow].HTTP_Listener_Configuration.worker.01] INFO  org.mule.api.processor.LoggerMessageProcessor - API Initiated
+2019-03-06 13:11:27,516 [[apiflow].HTTP_Listener_Configuration.worker.01] ERROR org.mule.exception.DefaultMessagingExceptionStrategy - 
+********************************************************************************
+Message               : Error sending HTTP request. Message payload is of type: NullPayload
+Type                  : org.mule.api.MessagingException
+Code                  : MULE_ERROR--2
+JavaDoc               : http://www.mulesoft.org/docs/site/current3/apidocs/org/mule/api/MessagingException.html
+Payload               : {NullPayload}
+********************************************************************************
+Exception stack is:
+1. Connection refused: no further information (java.net.ConnectException)
+  sun.nio.ch.SocketChannelImpl:-2 (null)
+2. java.net.ConnectException: Connection refused: no further information (java.util.concurrent.ExecutionException)
+  org.glassfish.grizzly.impl.SafeFutureImpl$Sync:349 (null)
+3. java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused: no further information (java.io.IOException)
+  org.mule.module.http.internal.request.grizzly.GrizzlyHttpClient:245 (null)
+4. Error sending HTTP request. Message payload is of type: NullPayload (org.mule.api.MessagingException)
+  org.mule.module.http.internal.request.DefaultHttpRequester:287 (http://www.mulesoft.org/docs/site/current3/apidocs/org/mule/api/MessagingException.html)
+********************************************************************************
+Root Exception stack trace:
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnectorHandler.onConnectedAsync(TCPNIOConnectorHandler.java:210)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnectorHandler$1.connected(TCPNIOConnectorHandler.java:158)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnection.onConnect(TCPNIOConnection.java:258)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:527)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.mule.module.http.internal.request.grizzly.FlowWorkManagerIOStrategy.run0(FlowWorkManagerIOStrategy.java:134)
+	at org.mule.module.http.internal.request.grizzly.FlowWorkManagerIOStrategy.executeIoEvent(FlowWorkManagerIOStrategy.java:77)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.executeIoEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.nio.SelectorRunner.iterateKeyEvents(SelectorRunner.java:414)
+	at org.glassfish.grizzly.nio.SelectorRunner.iterateKeys(SelectorRunner.java:383)
+	at org.glassfish.grizzly.nio.SelectorRunner.doSelect(SelectorRunner.java:347)
+	at org.glassfish.grizzly.nio.SelectorRunner.run(SelectorRunner.java:278)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.lang.Thread.run(Thread.java:748)
+
+********************************************************************************
+
+2019-03-06 13:11:36,734 [[apiflow].HTTP_Listener_Configuration.worker.01] INFO  org.mule.module.http.internal.listener.HttpListenerRegistry - No listener found for request: (POST)/api
+2019-03-06 13:11:36,735 [[apiflow].HTTP_Listener_Configuration.worker.01] INFO  org.mule.module.http.internal.listener.HttpListenerRegistry - Available listeners are: [([get])/api/]
+2019-03-06 13:11:49,224 [[apiflow].HTTP_Listener_Configuration.worker.01] INFO  org.mule.module.http.internal.listener.HttpListenerRegistry - No listener found for request: (GET)/
+2019-03-06 13:11:49,224 [[apiflow].HTTP_Listener_Configuration.worker.01] INFO  org.mule.module.http.internal.listener.HttpListenerRegistry - Available listeners are: [([get])/api/]
+2019-03-06 13:11:52,301 [[apiflow].HTTP_Listener_Configuration.worker.01] INFO  org.mule.api.processor.LoggerMessageProcessor - API Initiated
+2019-03-06 13:11:52,385 [[apiflow].HTTP_Listener_Configuration.worker.02] INFO  org.mule.module.http.internal.listener.HttpListenerRegistry - No listener found for request: (GET)/HNAP1/
+2019-03-06 13:11:52,385 [[apiflow].HTTP_Listener_Configuration.worker.02] INFO  org.mule.module.http.internal.listener.HttpListenerRegistry - Available listeners are: [([get])/api/]
+2019-03-06 13:11:53,317 [[apiflow].HTTP_Listener_Configuration.worker.01] ERROR org.mule.exception.DefaultMessagingExceptionStrategy - 
+********************************************************************************
+Message               : Error sending HTTP request. Message payload is of type: NullPayload
+Type                  : org.mule.api.MessagingException
+Code                  : MULE_ERROR--2
+JavaDoc               : http://www.mulesoft.org/docs/site/current3/apidocs/org/mule/api/MessagingException.html
+Payload               : {NullPayload}
+********************************************************************************
+Exception stack is:
+1. Connection refused: no further information (java.net.ConnectException)
+  sun.nio.ch.SocketChannelImpl:-2 (null)
+2. java.net.ConnectException: Connection refused: no further information (java.util.concurrent.ExecutionException)
+  org.glassfish.grizzly.impl.SafeFutureImpl$Sync:349 (null)
+3. java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused: no further information (java.io.IOException)
+  org.mule.module.http.internal.request.grizzly.GrizzlyHttpClient:245 (null)
+4. Error sending HTTP request. Message payload is of type: NullPayload (org.mule.api.MessagingException)
+  org.mule.module.http.internal.request.DefaultHttpRequester:287 (http://www.mulesoft.org/docs/site/current3/apidocs/org/mule/api/MessagingException.html)
+********************************************************************************
+Root Exception stack trace:
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnectorHandler.onConnectedAsync(TCPNIOConnectorHandler.java:210)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnectorHandler$1.connected(TCPNIOConnectorHandler.java:158)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnection.onConnect(TCPNIOConnection.java:258)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:527)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.mule.module.http.internal.request.grizzly.FlowWorkManagerIOStrategy.run0(FlowWorkManagerIOStrategy.java:134)
+	at org.mule.module.http.internal.request.grizzly.FlowWorkManagerIOStrategy.executeIoEvent(FlowWorkManagerIOStrategy.java:77)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.executeIoEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.nio.SelectorRunner.iterateKeyEvents(SelectorRunner.java:414)
+	at org.glassfish.grizzly.nio.SelectorRunner.iterateKeys(SelectorRunner.java:383)
+	at org.glassfish.grizzly.nio.SelectorRunner.doSelect(SelectorRunner.java:347)
+	at org.glassfish.grizzly.nio.SelectorRunner.run(SelectorRunner.java:278)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.lang.Thread.run(Thread.java:748)
+
+********************************************************************************
+
+2019-03-06 13:12:15,069 [[apiflow].HTTP_Listener_Configuration.worker.01] INFO  org.mule.module.http.internal.listener.HttpListenerRegistry - No listener found for request: (GET)/api/flights/3
+2019-03-06 13:12:15,069 [[apiflow].HTTP_Listener_Configuration.worker.01] INFO  org.mule.module.http.internal.listener.HttpListenerRegistry - Available listeners are: [([get])/api/]
+2019-03-06 13:12:24,414 [[apiflow].HTTP_Listener_Configuration.worker.01] INFO  org.mule.module.http.internal.listener.HttpListenerRegistry - No listener found for request: (GET)/api/3
+2019-03-06 13:12:24,414 [[apiflow].HTTP_Listener_Configuration.worker.01] INFO  org.mule.module.http.internal.listener.HttpListenerRegistry - Available listeners are: [([get])/api/]
+2019-03-06 13:12:56,229 [[apiflow].HTTP_Listener_Configuration.worker.01] INFO  org.mule.module.http.internal.listener.HttpListenerRegistry - No listener found for request: (GET)/api/flights/3
+2019-03-06 13:12:56,230 [[apiflow].HTTP_Listener_Configuration.worker.01] INFO  org.mule.module.http.internal.listener.HttpListenerRegistry - Available listeners are: [([get])/api/]
+2019-03-06 18:25:38,585 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Stopping app 'apiflow'                                   +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 18:25:38,801 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Stopping flow: apiflowFlow
+2019-03-06 18:25:38,801 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Stopping service: apiflowFlow.stage1
+2019-03-06 18:25:38,957 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Stopping model: _muleSystemModel
+2019-03-06 18:25:39,019 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Stopped listener on http://0.0.0.0:8081
+2019-03-06 18:25:39,051 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Stopping ResourceManager
+2019-03-06 18:25:39,051 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Stopped ResourceManager
+2019-03-06 18:25:39,082 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Disposing app 'apiflow'                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 18:25:39,082 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing RegistryBroker
+2019-03-06 18:25:39,082 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Disposing flow: apiflowFlow
+2019-03-06 18:25:39,082 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Disposing service: apiflowFlow.stage1
+2019-03-06 18:25:39,097 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing model: _muleSystemModel
+2019-03-06 18:25:39,472 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.MuleArtifactContext - Closing org.mule.config.spring.MuleArtifactContext@301ec38b: startup date [Wed Mar 06 13:10:49 GMT 2019]; root of context hierarchy
+2019-03-06 18:25:39,598 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application "apiflow" shut down normally on: 6/3/19 6:25 PM        *
+* Up for: 0 days, 5 hours, 14 mins, 44.517 sec                       *
+**********************************************************************
+2019-03-06 18:25:39,865 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'apiflow'                               +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 18:25:39,896 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2019-03-06 18:25:39,912 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2019-03-06 18:25:39,928 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2019-03-06 18:25:39,928 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.7)
+2019-03-06 18:25:39,943 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@36e5f84: startup date [Wed Mar 06 18:25:39 GMT 2019]; root of context hierarchy
+2019-03-06 18:25:40,614 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-06 18:25:40,880 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2019-03-06 18:25:40,883 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: apiflowFlow
+2019-03-06 18:25:40,883 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@2f2a024b
+2019-03-06 18:25:40,884 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: apiflowFlow.stage1
+2019-03-06 18:25:40,899 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Mule Practise\Pradyu\.mule\.\.mule\apiflow\queue-tx-log\tx1.log and C:\Mule Practise\Pradyu\.mule\.\.mule\apiflow\queue-tx-log\tx2.log
+2019-03-06 18:25:40,899 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Mule Practise\Pradyu\.mule\.\.mule\apiflow\queue-xa-tx-log\tx1.log and C:\Mule Practise\Pradyu\.mule\.\.mule\apiflow\queue-xa-tx-log\tx2.log
+2019-03-06 18:25:41,149 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Mule Practise\Pradyu\.mule\apps\apiflow\apiflow.xml'}]"
+2019-03-06 18:25:41,149 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Mule Practise\Pradyu\.mule\apps\apiflow\apiflow.xml'}]"
+2019-03-06 18:25:41,149 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'apiflow'                                   +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 18:25:41,149 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2019-03-06 18:25:41,149 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2019-03-06 18:25:41,181 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8081
+2019-03-06 18:25:41,181 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 18:25:41,196 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2019-03-06 18:25:41,196 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: apiflowFlow
+2019-03-06 18:25:41,196 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: apiflowFlow.stage1
+2019-03-06 18:25:41,227 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2019-03-06 18:25:41,243 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: apiflow                                               *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   JMX Agent                                                        *
+*   DevKit Extension Information                                     *
+*   Batch module default engine                                      *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2019-03-06 18:26:16,342 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Stopping app 'apiflow'                                   +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 18:26:16,350 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Stopping flow: apiflowFlow
+2019-03-06 18:26:16,350 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Stopping service: apiflowFlow.stage1
+2019-03-06 18:26:16,506 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Stopping model: _muleSystemModel
+2019-03-06 18:26:16,506 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Stopped listener on http://0.0.0.0:8081
+2019-03-06 18:26:16,506 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Stopping ResourceManager
+2019-03-06 18:26:16,506 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Stopped ResourceManager
+2019-03-06 18:26:16,506 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Disposing app 'apiflow'                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 18:26:16,506 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing RegistryBroker
+2019-03-06 18:26:16,506 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Disposing flow: apiflowFlow
+2019-03-06 18:26:16,522 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Disposing service: apiflowFlow.stage1
+2019-03-06 18:26:16,522 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing model: _muleSystemModel
+2019-03-06 18:26:16,538 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.MuleArtifactContext - Closing org.mule.config.spring.MuleArtifactContext@36e5f84: startup date [Wed Mar 06 18:25:39 GMT 2019]; root of context hierarchy
+2019-03-06 18:26:16,729 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application "apiflow" shut down normally on: 6/3/19 6:26 PM        *
+* Up for: 0 days, 0 hours, 0 mins, 35.580 sec                        *
+**********************************************************************
+2019-03-06 18:26:16,807 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'apiflow'                               +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 18:26:16,823 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2019-03-06 18:26:16,823 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2019-03-06 18:26:16,856 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2019-03-06 18:26:16,858 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.7)
+2019-03-06 18:26:16,868 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@21655e07: startup date [Wed Mar 06 18:26:16 GMT 2019]; root of context hierarchy
+2019-03-06 18:26:26,379 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'apiflow'                               +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 18:26:26,760 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2019-03-06 18:26:26,870 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2019-03-06 18:26:27,026 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2019-03-06 18:26:27,026 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.7)
+2019-03-06 18:26:27,089 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@301ec38b: startup date [Wed Mar 06 18:26:27 GMT 2019]; root of context hierarchy
+2019-03-06 18:26:28,779 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-06 18:26:29,890 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2019-03-06 18:26:30,859 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2019-03-06 18:26:30,859 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: apiflowFlow
+2019-03-06 18:26:30,859 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@d109c4f
+2019-03-06 18:26:30,906 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: apiflowFlow.stage1
+2019-03-06 18:26:30,952 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Mule Practise\Pradyu\.mule\.\.mule\apiflow\queue-tx-log\tx1.log and C:\Mule Practise\Pradyu\.mule\.\.mule\apiflow\queue-tx-log\tx2.log
+2019-03-06 18:26:30,968 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Mule Practise\Pradyu\.mule\.\.mule\apiflow\queue-xa-tx-log\tx1.log and C:\Mule Practise\Pradyu\.mule\.\.mule\apiflow\queue-xa-tx-log\tx2.log
+2019-03-06 18:26:31,952 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Mule Practise\Pradyu\.mule\apps\apiflow\apiflow.xml'}]"
+2019-03-06 18:26:31,952 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Mule Practise\Pradyu\.mule\apps\apiflow\apiflow.xml'}]"
+2019-03-06 18:26:31,959 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'apiflow'                                   +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 18:26:31,960 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2019-03-06 18:26:31,960 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2019-03-06 18:26:32,257 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8081
+2019-03-06 18:26:32,257 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 18:26:32,273 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2019-03-06 18:26:32,273 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: apiflowFlow
+2019-03-06 18:26:32,273 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: apiflowFlow.stage1
+2019-03-06 18:26:32,320 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2019-03-06 18:26:32,351 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: apiflow                                               *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   JMX Agent                                                        *
+*   DevKit Extension Information                                     *
+*   Batch module default engine                                      *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2019-03-06 18:27:02,167 [[apiflow].HTTP_Listener_Configuration.worker.01] INFO  org.mule.module.http.internal.listener.HttpListenerRegistry - No listener found for request: (POST)/api
+2019-03-06 18:27:02,168 [[apiflow].HTTP_Listener_Configuration.worker.01] INFO  org.mule.module.http.internal.listener.HttpListenerRegistry - Available listeners are: [([get])/api/]
+2019-03-06 18:27:10,018 [[apiflow].HTTP_Listener_Configuration.worker.01] INFO  org.mule.api.processor.LoggerMessageProcessor - API Initiated
+2019-03-06 18:27:11,118 [[apiflow].HTTP_Listener_Configuration.worker.01] ERROR org.mule.exception.DefaultMessagingExceptionStrategy - 
+********************************************************************************
+Message               : Error sending HTTP request. Message payload is of type: NullPayload
+Type                  : org.mule.api.MessagingException
+Code                  : MULE_ERROR--2
+JavaDoc               : http://www.mulesoft.org/docs/site/current3/apidocs/org/mule/api/MessagingException.html
+Payload               : {NullPayload}
+********************************************************************************
+Exception stack is:
+1. Connection refused: no further information (java.net.ConnectException)
+  sun.nio.ch.SocketChannelImpl:-2 (null)
+2. java.net.ConnectException: Connection refused: no further information (java.util.concurrent.ExecutionException)
+  org.glassfish.grizzly.impl.SafeFutureImpl$Sync:349 (null)
+3. java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused: no further information (java.io.IOException)
+  org.mule.module.http.internal.request.grizzly.GrizzlyHttpClient:245 (null)
+4. Error sending HTTP request. Message payload is of type: NullPayload (org.mule.api.MessagingException)
+  org.mule.module.http.internal.request.DefaultHttpRequester:287 (http://www.mulesoft.org/docs/site/current3/apidocs/org/mule/api/MessagingException.html)
+********************************************************************************
+Root Exception stack trace:
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnectorHandler.onConnectedAsync(TCPNIOConnectorHandler.java:210)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnectorHandler$1.connected(TCPNIOConnectorHandler.java:158)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnection.onConnect(TCPNIOConnection.java:258)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:527)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.mule.module.http.internal.request.grizzly.FlowWorkManagerIOStrategy.run0(FlowWorkManagerIOStrategy.java:134)
+	at org.mule.module.http.internal.request.grizzly.FlowWorkManagerIOStrategy.executeIoEvent(FlowWorkManagerIOStrategy.java:77)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.executeIoEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.nio.SelectorRunner.iterateKeyEvents(SelectorRunner.java:414)
+	at org.glassfish.grizzly.nio.SelectorRunner.iterateKeys(SelectorRunner.java:383)
+	at org.glassfish.grizzly.nio.SelectorRunner.doSelect(SelectorRunner.java:347)
+	at org.glassfish.grizzly.nio.SelectorRunner.run(SelectorRunner.java:278)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.lang.Thread.run(Thread.java:748)
+
+********************************************************************************
+

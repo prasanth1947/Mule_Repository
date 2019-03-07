@@ -1,0 +1,1365 @@
+2019-03-06 19:27:32,139 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'training-american-ws'                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 19:27:32,582 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2019-03-06 19:27:32,744 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2019-03-06 19:27:32,909 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2019-03-06 19:27:32,909 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.7)
+2019-03-06 19:27:33,000 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@54dcfa5a: startup date [Wed Mar 06 19:27:32 GMT 2019]; root of context hierarchy
+2019-03-06 19:27:34,869 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-06 19:27:36,119 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2019-03-06 19:27:37,172 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2019-03-06 19:27:37,181 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: training-american-wsFlow
+2019-03-06 19:27:37,187 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@1e469dfd
+2019-03-06 19:27:37,251 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: training-american-wsFlow.stage1
+2019-03-06 19:27:37,282 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-tx-log\tx1.log and C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-tx-log\tx2.log
+2019-03-06 19:27:37,298 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-xa-tx-log\tx1.log and C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-xa-tx-log\tx2.log
+2019-03-06 19:27:37,652 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Mule Practise\Pradyu\.mule\apps\training-american-ws\training-american-ws.xml'}]"
+2019-03-06 19:27:37,652 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Mule Practise\Pradyu\.mule\apps\training-american-ws\training-american-ws.xml'}]"
+2019-03-06 19:27:37,652 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'training-american-ws'                      +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 19:27:37,652 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2019-03-06 19:27:37,652 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2019-03-06 19:27:37,763 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8081
+2019-03-06 19:27:37,763 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 19:27:37,763 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2019-03-06 19:27:37,763 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: training-american-wsFlow
+2019-03-06 19:27:37,763 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: training-american-wsFlow.stage1
+2019-03-06 19:27:37,857 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2019-03-06 19:27:37,896 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: training-american-ws                                  *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   JMX Agent                                                        *
+*   DevKit Extension Information                                     *
+*   Batch module default engine                                      *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2019-03-06 19:27:55,603 [[training-american-ws].HTTP_Listener_Configuration.worker.01] INFO  org.mule.api.processor.LoggerMessageProcessor - Flight Information
+2019-03-06 19:47:21,414 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'training-american-ws'                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 19:47:21,804 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2019-03-06 19:47:21,945 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2019-03-06 19:47:22,089 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2019-03-06 19:47:22,089 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.7)
+2019-03-06 19:47:22,152 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@10ded6a9: startup date [Wed Mar 06 19:47:22 GMT 2019]; root of context hierarchy
+2019-03-06 19:47:23,913 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-06 19:47:24,288 [main] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 19:47:24,288 [main] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 19:47:24,288 [main] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 19:47:24,288 [main] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 19:47:25,223 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2019-03-06 19:47:26,381 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2019-03-06 19:47:26,389 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: training-american-wsFlow
+2019-03-06 19:47:26,389 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@561b7d53
+2019-03-06 19:47:26,420 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: training-american-wsFlow.stage1
+2019-03-06 19:47:26,436 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: training-american-wsFlow1
+2019-03-06 19:47:26,436 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@4437ac07
+2019-03-06 19:47:26,451 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: training-american-wsFlow1.stage1
+2019-03-06 19:47:26,483 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-tx-log\tx1.log and C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-tx-log\tx2.log
+2019-03-06 19:47:26,483 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-xa-tx-log\tx1.log and C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-xa-tx-log\tx2.log
+2019-03-06 19:47:26,858 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Mule Practise\Pradyu\.mule\apps\training-american-ws\training-american-ws.xml'}]"
+2019-03-06 19:47:26,858 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Mule Practise\Pradyu\.mule\apps\training-american-ws\training-american-ws.xml'}]"
+2019-03-06 19:47:26,858 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'training-american-ws'                      +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 19:47:26,873 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2019-03-06 19:47:26,873 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2019-03-06 19:47:26,951 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8081
+2019-03-06 19:47:26,967 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 19:47:26,967 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2019-03-06 19:47:26,967 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: training-american-wsFlow
+2019-03-06 19:47:26,967 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: training-american-wsFlow.stage1
+2019-03-06 19:47:27,045 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: training-american-wsFlow1
+2019-03-06 19:47:27,045 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: training-american-wsFlow1.stage1
+2019-03-06 19:47:27,092 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2019-03-06 19:47:27,123 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: training-american-ws                                  *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   JMX Agent                                                        *
+*   DevKit Extension Information                                     *
+*   Batch module default engine                                      *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2019-03-06 19:47:43,037 [[training-american-ws].HTTP_Listener_Configuration.worker.01] INFO  org.mule.api.processor.LoggerMessageProcessor - [{AGE=10, ENAME=aaa, ID=1}, {AGE=20, ENAME=bbb, ID=2}, {AGE=30, ENAME=ccc, ID=3}, {AGE=40, ENAME=ddd, ID=4}, {AGE=45, ENAME=eee, ID=5}, {AGE=30, ENAME=United Kingdom, ID=8119}, {AGE=25, ENAME=Australia, ID=8120}, {AGE=30, ENAME=Austria, ID=8121}, {AGE=27, ENAME=Germany, ID=8122}, {AGE=25, ENAME=New York City, ID=8217}, {AGE=28, ENAME=United Kingdom, ID=8218}, {AGE=30, ENAME=United Kingdom, ID=8219}, {AGE=25, ENAME=Australia, ID=8220}, {AGE=30, ENAME=Austria, ID=8221}, {AGE=27, ENAME=Germany, ID=8222}, {AGE=null, ENAME=null, ID=null}, {AGE=null, ENAME=null, ID=null}, {AGE=null, ENAME=null, ID=null}, {AGE=null, ENAME=null, ID=null}, {AGE=null, ENAME=null, ID=null}, {AGE=null, ENAME=null, ID=null}, {AGE=25, ENAME=New York City, ID=8817}, {AGE=28, ENAME=United Kingdom, ID=8818}, {AGE=30, ENAME=United Kingdom, ID=8819}, {AGE=25, ENAME=Australia, ID=8820}, {AGE=30, ENAME=Austria, ID=8821}, {AGE=27, ENAME=Germany, ID=8822}, {AGE=25, ENAME=New York City, ID=8917}, {AGE=28, ENAME=United Kingdom, ID=8918}, {AGE=30, ENAME=United Kingdom, ID=8919}, {AGE=25, ENAME=Australia, ID=8920}, {AGE=30, ENAME=Austria, ID=8921}, {AGE=27, ENAME=Germany, ID=8922}, {AGE=25, ENAME=New York City, ID=8117}, {AGE=28, ENAME=United Kingdom, ID=8118}, {AGE=30, ENAME=United Kingdom, ID=8119}, {AGE=25, ENAME=Australia, ID=8120}, {AGE=30, ENAME=Austria, ID=8121}, {AGE=27, ENAME=Germany, ID=8122}, {AGE=25, ENAME=New York City, ID=8117}, {AGE=28, ENAME=United Kingdom, ID=8118}]
+2019-03-06 19:50:02,609 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Stopping app 'training-american-ws'                      +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 19:50:02,611 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Stopping flow: training-american-wsFlow
+2019-03-06 19:50:02,611 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Stopping service: training-american-wsFlow.stage1
+2019-03-06 19:50:02,674 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Stopping flow: training-american-wsFlow1
+2019-03-06 19:50:02,674 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Stopping service: training-american-wsFlow1.stage1
+2019-03-06 19:50:02,861 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Stopping model: _muleSystemModel
+2019-03-06 19:50:02,867 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Stopped listener on http://0.0.0.0:8081
+2019-03-06 19:50:02,867 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Stopping ResourceManager
+2019-03-06 19:50:02,867 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Stopped ResourceManager
+2019-03-06 19:50:02,867 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Disposing app 'training-american-ws'                     +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 19:50:02,867 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing RegistryBroker
+2019-03-06 19:50:02,883 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Disposing flow: training-american-wsFlow
+2019-03-06 19:50:02,883 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Disposing service: training-american-wsFlow.stage1
+2019-03-06 19:50:02,898 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Disposing flow: training-american-wsFlow1
+2019-03-06 19:50:02,898 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Disposing service: training-american-wsFlow1.stage1
+2019-03-06 19:50:02,898 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing model: _muleSystemModel
+2019-03-06 19:50:03,242 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.MuleArtifactContext - Closing org.mule.config.spring.MuleArtifactContext@10ded6a9: startup date [Wed Mar 06 19:47:22 GMT 2019]; root of context hierarchy
+2019-03-06 19:50:03,304 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application "training-american-ws" shut down normally on: 6/3/19   *
+* 7:50 PM                                                            *
+* Up for: 0 days, 0 hours, 2 mins, 36.446 sec                        *
+**********************************************************************
+2019-03-06 19:50:03,414 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'training-american-ws'                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 19:50:03,429 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2019-03-06 19:50:03,445 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2019-03-06 19:50:03,476 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2019-03-06 19:50:03,476 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.7)
+2019-03-06 19:50:03,476 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@50860702: startup date [Wed Mar 06 19:50:03 GMT 2019]; root of context hierarchy
+2019-03-06 19:50:04,226 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-06 19:50:04,363 [Mule.app.deployer.monitor.1.thread.1] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 19:50:04,379 [Mule.app.deployer.monitor.1.thread.1] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 19:50:04,379 [Mule.app.deployer.monitor.1.thread.1] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 19:50:04,379 [Mule.app.deployer.monitor.1.thread.1] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 19:50:04,688 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2019-03-06 19:50:04,704 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: training-american-wsFlow
+2019-03-06 19:50:04,704 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@59570508
+2019-03-06 19:50:04,720 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: training-american-wsFlow.stage1
+2019-03-06 19:50:04,735 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: training-american-wsFlow1
+2019-03-06 19:50:04,735 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@30f9aa21
+2019-03-06 19:50:04,735 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: training-american-wsFlow1.stage1
+2019-03-06 19:50:04,751 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-tx-log\tx1.log and C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-tx-log\tx2.log
+2019-03-06 19:50:04,751 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-xa-tx-log\tx1.log and C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-xa-tx-log\tx2.log
+2019-03-06 19:50:04,844 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Mule Practise\Pradyu\.mule\apps\training-american-ws\training-american-ws.xml'}]"
+2019-03-06 19:50:04,844 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Mule Practise\Pradyu\.mule\apps\training-american-ws\training-american-ws.xml'}]"
+2019-03-06 19:50:04,844 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'training-american-ws'                      +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 19:50:04,860 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2019-03-06 19:50:04,860 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2019-03-06 19:50:04,876 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8081
+2019-03-06 19:50:04,891 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 19:50:04,891 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2019-03-06 19:50:04,891 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: training-american-wsFlow
+2019-03-06 19:50:04,891 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: training-american-wsFlow.stage1
+2019-03-06 19:50:04,907 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: training-american-wsFlow1
+2019-03-06 19:50:04,907 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: training-american-wsFlow1.stage1
+2019-03-06 19:50:04,923 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2019-03-06 19:50:04,923 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: training-american-ws                                  *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   JMX Agent                                                        *
+*   DevKit Extension Information                                     *
+*   Batch module default engine                                      *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2019-03-06 19:50:29,163 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'training-american-ws'                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 19:50:29,522 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2019-03-06 19:50:29,663 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2019-03-06 19:50:29,806 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2019-03-06 19:50:29,806 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.7)
+2019-03-06 19:50:29,884 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@10ded6a9: startup date [Wed Mar 06 19:50:29 GMT 2019]; root of context hierarchy
+2019-03-06 19:50:31,649 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-06 19:50:32,022 [main] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 19:50:32,022 [main] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 19:50:32,022 [main] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 19:50:32,022 [main] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 19:50:32,930 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2019-03-06 19:50:33,914 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2019-03-06 19:50:33,914 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: training-american-wsFlow
+2019-03-06 19:50:33,914 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@eac3a26
+2019-03-06 19:50:33,961 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: training-american-wsFlow.stage1
+2019-03-06 19:50:33,981 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: training-american-wsFlow1
+2019-03-06 19:50:33,981 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@43f1bb92
+2019-03-06 19:50:33,997 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: training-american-wsFlow1.stage1
+2019-03-06 19:50:34,215 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-tx-log\tx1.log and C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-tx-log\tx2.log
+2019-03-06 19:50:34,231 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-xa-tx-log\tx1.log and C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-xa-tx-log\tx2.log
+2019-03-06 19:50:34,387 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Mule Practise\Pradyu\.mule\apps\training-american-ws\training-american-ws.xml'}]"
+2019-03-06 19:50:34,387 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Mule Practise\Pradyu\.mule\apps\training-american-ws\training-american-ws.xml'}]"
+2019-03-06 19:50:34,387 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'training-american-ws'                      +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 19:50:34,387 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2019-03-06 19:50:34,387 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2019-03-06 19:50:34,481 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8081
+2019-03-06 19:50:34,497 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 19:50:34,497 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2019-03-06 19:50:34,512 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: training-american-wsFlow
+2019-03-06 19:50:34,528 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: training-american-wsFlow.stage1
+2019-03-06 19:50:34,528 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: training-american-wsFlow1
+2019-03-06 19:50:34,528 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: training-american-wsFlow1.stage1
+2019-03-06 19:50:34,624 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2019-03-06 19:50:34,702 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: training-american-ws                                  *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   JMX Agent                                                        *
+*   DevKit Extension Information                                     *
+*   Batch module default engine                                      *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2019-03-06 19:50:39,988 [[training-american-ws].HTTP_Listener_Configuration.worker.01] INFO  org.mule.api.processor.LoggerMessageProcessor - [{"AGE":"10","ENAME":"aaa","ID":"1"},{"AGE":"20","ENAME":"bbb","ID":"2"},{"AGE":"30","ENAME":"ccc","ID":"3"},{"AGE":"40","ENAME":"ddd","ID":"4"},{"AGE":"45","ENAME":"eee","ID":"5"},{"AGE":"30","ENAME":"United Kingdom","ID":"8119"},{"AGE":"25","ENAME":"Australia","ID":"8120"},{"AGE":"30","ENAME":"Austria","ID":"8121"},{"AGE":"27","ENAME":"Germany","ID":"8122"},{"AGE":"25","ENAME":"New York City","ID":"8217"},{"AGE":"28","ENAME":"United Kingdom","ID":"8218"},{"AGE":"30","ENAME":"United Kingdom","ID":"8219"},{"AGE":"25","ENAME":"Australia","ID":"8220"},{"AGE":"30","ENAME":"Austria","ID":"8221"},{"AGE":"27","ENAME":"Germany","ID":"8222"},{"AGE":null,"ENAME":null,"ID":null},{"AGE":null,"ENAME":null,"ID":null},{"AGE":null,"ENAME":null,"ID":null},{"AGE":null,"ENAME":null,"ID":null},{"AGE":null,"ENAME":null,"ID":null},{"AGE":null,"ENAME":null,"ID":null},{"AGE":"25","ENAME":"New York City","ID":"8817"},{"AGE":"28","ENAME":"United Kingdom","ID":"8818"},{"AGE":"30","ENAME":"United Kingdom","ID":"8819"},{"AGE":"25","ENAME":"Australia","ID":"8820"},{"AGE":"30","ENAME":"Austria","ID":"8821"},{"AGE":"27","ENAME":"Germany","ID":"8822"},{"AGE":"25","ENAME":"New York City","ID":"8917"},{"AGE":"28","ENAME":"United Kingdom","ID":"8918"},{"AGE":"30","ENAME":"United Kingdom","ID":"8919"},{"AGE":"25","ENAME":"Australia","ID":"8920"},{"AGE":"30","ENAME":"Austria","ID":"8921"},{"AGE":"27","ENAME":"Germany","ID":"8922"},{"AGE":"25","ENAME":"New York City","ID":"8117"},{"AGE":"28","ENAME":"United Kingdom","ID":"8118"},{"AGE":"30","ENAME":"United Kingdom","ID":"8119"},{"AGE":"25","ENAME":"Australia","ID":"8120"},{"AGE":"30","ENAME":"Austria","ID":"8121"},{"AGE":"27","ENAME":"Germany","ID":"8122"},{"AGE":"25","ENAME":"New York City","ID":"8117"},{"AGE":"28","ENAME":"United Kingdom","ID":"8118"}]
+2019-03-06 19:55:45,530 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Stopping app 'training-american-ws'                      +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 19:55:45,546 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Stopping flow: training-american-wsFlow
+2019-03-06 19:55:45,561 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Stopping service: training-american-wsFlow.stage1
+2019-03-06 19:55:45,686 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Stopping flow: training-american-wsFlow1
+2019-03-06 19:55:45,686 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Stopping service: training-american-wsFlow1.stage1
+2019-03-06 19:55:45,936 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Stopping model: _muleSystemModel
+2019-03-06 19:55:45,967 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Stopped listener on http://0.0.0.0:8081
+2019-03-06 19:55:45,967 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Stopping ResourceManager
+2019-03-06 19:55:45,967 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Stopped ResourceManager
+2019-03-06 19:55:46,249 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Disposing app 'training-american-ws'                     +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 19:55:46,249 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing RegistryBroker
+2019-03-06 19:55:46,249 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Disposing flow: training-american-wsFlow
+2019-03-06 19:55:46,249 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Disposing service: training-american-wsFlow.stage1
+2019-03-06 19:55:46,249 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Disposing flow: training-american-wsFlow1
+2019-03-06 19:55:46,249 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Disposing service: training-american-wsFlow1.stage1
+2019-03-06 19:55:46,264 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing model: _muleSystemModel
+2019-03-06 19:55:46,436 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.MuleArtifactContext - Closing org.mule.config.spring.MuleArtifactContext@10ded6a9: startup date [Wed Mar 06 19:50:29 GMT 2019]; root of context hierarchy
+2019-03-06 19:55:46,655 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application "training-american-ws" shut down normally on: 6/3/19   *
+* 7:55 PM                                                            *
+* Up for: 0 days, 0 hours, 5 mins, 12.268 sec                        *
+**********************************************************************
+2019-03-06 19:55:46,788 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'training-american-ws'                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 19:55:46,804 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2019-03-06 19:55:46,819 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2019-03-06 19:55:46,835 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2019-03-06 19:55:46,835 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.7)
+2019-03-06 19:55:46,850 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@28875c58: startup date [Wed Mar 06 19:55:46 GMT 2019]; root of context hierarchy
+2019-03-06 19:55:47,210 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing RegistryBroker
+2019-03-06 19:55:47,225 [Mule.app.deployer.monitor.1.thread.1] ERROR org.mule.module.launcher.application.DefaultMuleApplication - null
+org.xml.sax.SAXParseException: cvc-complex-type.2.4.b: The content of element 'flow' is not complete. One of '{"http://www.mulesoft.org/schema/mule/core":abstract-message-processor, "http://www.mulesoft.org/schema/mule/core":abstract-outbound-endpoint, "http://www.mulesoft.org/schema/mule/core":abstract-mixed-content-message-processor, "http://www.mulesoft.org/schema/mule/core":response}' is expected.
+	at org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source) ~[?:?]
+	at org.apache.xerces.util.ErrorHandlerWrapper.error(Unknown Source) ~[?:?]
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source) ~[?:?]
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source) ~[?:?]
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source) ~[?:?]
+	at org.apache.xerces.impl.xs.XMLSchemaValidator$XSIErrorReporter.reportError(Unknown Source) ~[?:?]
+	at org.apache.xerces.impl.xs.XMLSchemaValidator.reportSchemaError(Unknown Source) ~[?:?]
+	at org.apache.xerces.impl.xs.XMLSchemaValidator.elementLocallyValidComplexType(Unknown Source) ~[?:?]
+	at org.apache.xerces.impl.xs.XMLSchemaValidator.elementLocallyValidType(Unknown Source) ~[?:?]
+	at org.apache.xerces.impl.xs.XMLSchemaValidator.processElementContent(Unknown Source) ~[?:?]
+	at org.apache.xerces.impl.xs.XMLSchemaValidator.handleEndElement(Unknown Source) ~[?:?]
+	at org.apache.xerces.impl.xs.XMLSchemaValidator.endElement(Unknown Source) ~[?:?]
+	at org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanEndElement(Unknown Source) ~[?:?]
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source) ~[?:?]
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source) ~[?:?]
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source) ~[?:?]
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source) ~[?:?]
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source) ~[?:?]
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source) ~[?:?]
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source) ~[?:?]
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:76) ~[spring-beans-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:429) ~[spring-beans-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:391) ~[spring-beans-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336) ~[spring-beans-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304) ~[spring-beans-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:181) ~[spring-beans-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.mule.config.spring.MuleArtifactContext.loadBeanDefinitions(MuleArtifactContext.java:190) ~[mule-module-spring-config-3.7.3.jar:3.7.3]
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129) ~[spring-context-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:537) ~[spring-context-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:452) ~[spring-context-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.mule.config.spring.SpringRegistry.doInitialise(SpringRegistry.java:108) ~[mule-module-spring-config-3.7.3.jar:3.7.3]
+	at org.mule.registry.AbstractRegistry.initialise(AbstractRegistry.java:104) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.config.spring.SpringXmlConfigurationBuilder.createSpringRegistry(SpringXmlConfigurationBuilder.java:172) ~[mule-module-spring-config-3.7.3.jar:3.7.3]
+	at org.mule.config.spring.SpringXmlConfigurationBuilder.doConfigure(SpringXmlConfigurationBuilder.java:95) ~[mule-module-spring-config-3.7.3.jar:3.7.3]
+	at org.mule.config.builders.AbstractConfigurationBuilder.configure(AbstractConfigurationBuilder.java:43) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.config.builders.AbstractResourceConfigurationBuilder.configure(AbstractResourceConfigurationBuilder.java:69) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.config.builders.AutoConfigurationBuilder.autoConfigure(AutoConfigurationBuilder.java:101) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.config.builders.AutoConfigurationBuilder.doConfigure(AutoConfigurationBuilder.java:52) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.config.builders.AbstractConfigurationBuilder.configure(AbstractConfigurationBuilder.java:43) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.config.builders.AbstractResourceConfigurationBuilder.configure(AbstractResourceConfigurationBuilder.java:69) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.context.DefaultMuleContextFactory$1.configure(DefaultMuleContextFactory.java:89) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.context.DefaultMuleContextFactory.doCreateMuleContext(DefaultMuleContextFactory.java:222) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.context.DefaultMuleContextFactory.createMuleContext(DefaultMuleContextFactory.java:81) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.module.launcher.application.DefaultMuleApplication.init(DefaultMuleApplication.java:188) ~[mule-module-launcher-3.7.3.jar:3.7.3]
+	at org.mule.module.launcher.artifact.ArtifactWrapper$2.execute(ArtifactWrapper.java:62) ~[mule-module-launcher-3.7.3.jar:3.7.3]
+	at org.mule.module.launcher.artifact.ArtifactWrapper.executeWithinArtifactClassLoader(ArtifactWrapper.java:129) ~[mule-module-launcher-3.7.3.jar:3.7.3]
+	at org.mule.module.launcher.artifact.ArtifactWrapper.init(ArtifactWrapper.java:57) ~[mule-module-launcher-3.7.3.jar:3.7.3]
+	at org.mule.module.launcher.DefaultArtifactDeployer.deploy(DefaultArtifactDeployer.java:25) ~[mule-module-launcher-3.7.3.jar:3.7.3]
+	at org.mule.module.launcher.DefaultArchiveDeployer.redeploy(DefaultArchiveDeployer.java:544) ~[mule-module-launcher-3.7.3.jar:3.7.3]
+	at org.mule.module.launcher.DeploymentDirectoryWatcher.redeployModifiedArtifacts(DeploymentDirectoryWatcher.java:549) ~[mule-module-launcher-3.7.3.jar:3.7.3]
+	at org.mule.module.launcher.DeploymentDirectoryWatcher.redeployModifiedApplications(DeploymentDirectoryWatcher.java:538) ~[mule-module-launcher-3.7.3.jar:3.7.3]
+	at org.mule.module.launcher.DeploymentDirectoryWatcher.run(DeploymentDirectoryWatcher.java:348) ~[mule-module-launcher-3.7.3.jar:3.7.3]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_191]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) ~[?:1.8.0_191]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) ~[?:1.8.0_191]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) ~[?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+2019-03-06 19:55:47,225 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - App 'training-american-ws' never started, nothing to dispose of
+2019-03-06 19:56:07,367 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'training-american-ws'                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 19:56:07,382 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2019-03-06 19:56:07,382 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2019-03-06 19:56:07,413 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2019-03-06 19:56:07,413 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.7)
+2019-03-06 19:56:07,413 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@6051cca: startup date [Wed Mar 06 19:56:07 GMT 2019]; root of context hierarchy
+2019-03-06 19:56:08,038 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing RegistryBroker
+2019-03-06 19:56:08,085 [Mule.app.deployer.monitor.1.thread.1] ERROR org.mule.module.launcher.application.DefaultMuleApplication - null
+org.xml.sax.SAXParseException: cvc-complex-type.2.4.b: The content of element 'flow' is not complete. One of '{"http://www.mulesoft.org/schema/mule/core":abstract-message-processor, "http://www.mulesoft.org/schema/mule/core":abstract-outbound-endpoint, "http://www.mulesoft.org/schema/mule/core":abstract-mixed-content-message-processor, "http://www.mulesoft.org/schema/mule/core":response}' is expected.
+	at org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source) ~[?:?]
+	at org.apache.xerces.util.ErrorHandlerWrapper.error(Unknown Source) ~[?:?]
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source) ~[?:?]
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source) ~[?:?]
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source) ~[?:?]
+	at org.apache.xerces.impl.xs.XMLSchemaValidator$XSIErrorReporter.reportError(Unknown Source) ~[?:?]
+	at org.apache.xerces.impl.xs.XMLSchemaValidator.reportSchemaError(Unknown Source) ~[?:?]
+	at org.apache.xerces.impl.xs.XMLSchemaValidator.elementLocallyValidComplexType(Unknown Source) ~[?:?]
+	at org.apache.xerces.impl.xs.XMLSchemaValidator.elementLocallyValidType(Unknown Source) ~[?:?]
+	at org.apache.xerces.impl.xs.XMLSchemaValidator.processElementContent(Unknown Source) ~[?:?]
+	at org.apache.xerces.impl.xs.XMLSchemaValidator.handleEndElement(Unknown Source) ~[?:?]
+	at org.apache.xerces.impl.xs.XMLSchemaValidator.endElement(Unknown Source) ~[?:?]
+	at org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanEndElement(Unknown Source) ~[?:?]
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source) ~[?:?]
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source) ~[?:?]
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source) ~[?:?]
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source) ~[?:?]
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source) ~[?:?]
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source) ~[?:?]
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source) ~[?:?]
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:76) ~[spring-beans-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:429) ~[spring-beans-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:391) ~[spring-beans-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336) ~[spring-beans-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304) ~[spring-beans-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:181) ~[spring-beans-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.mule.config.spring.MuleArtifactContext.loadBeanDefinitions(MuleArtifactContext.java:190) ~[mule-module-spring-config-3.7.3.jar:3.7.3]
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129) ~[spring-context-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:537) ~[spring-context-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:452) ~[spring-context-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.mule.config.spring.SpringRegistry.doInitialise(SpringRegistry.java:108) ~[mule-module-spring-config-3.7.3.jar:3.7.3]
+	at org.mule.registry.AbstractRegistry.initialise(AbstractRegistry.java:104) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.config.spring.SpringXmlConfigurationBuilder.createSpringRegistry(SpringXmlConfigurationBuilder.java:172) ~[mule-module-spring-config-3.7.3.jar:3.7.3]
+	at org.mule.config.spring.SpringXmlConfigurationBuilder.doConfigure(SpringXmlConfigurationBuilder.java:95) ~[mule-module-spring-config-3.7.3.jar:3.7.3]
+	at org.mule.config.builders.AbstractConfigurationBuilder.configure(AbstractConfigurationBuilder.java:43) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.config.builders.AbstractResourceConfigurationBuilder.configure(AbstractResourceConfigurationBuilder.java:69) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.config.builders.AutoConfigurationBuilder.autoConfigure(AutoConfigurationBuilder.java:101) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.config.builders.AutoConfigurationBuilder.doConfigure(AutoConfigurationBuilder.java:52) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.config.builders.AbstractConfigurationBuilder.configure(AbstractConfigurationBuilder.java:43) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.config.builders.AbstractResourceConfigurationBuilder.configure(AbstractResourceConfigurationBuilder.java:69) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.context.DefaultMuleContextFactory$1.configure(DefaultMuleContextFactory.java:89) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.context.DefaultMuleContextFactory.doCreateMuleContext(DefaultMuleContextFactory.java:222) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.context.DefaultMuleContextFactory.createMuleContext(DefaultMuleContextFactory.java:81) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.module.launcher.application.DefaultMuleApplication.init(DefaultMuleApplication.java:188) ~[mule-module-launcher-3.7.3.jar:3.7.3]
+	at org.mule.module.launcher.artifact.ArtifactWrapper$2.execute(ArtifactWrapper.java:62) ~[mule-module-launcher-3.7.3.jar:3.7.3]
+	at org.mule.module.launcher.artifact.ArtifactWrapper.executeWithinArtifactClassLoader(ArtifactWrapper.java:129) ~[mule-module-launcher-3.7.3.jar:3.7.3]
+	at org.mule.module.launcher.artifact.ArtifactWrapper.init(ArtifactWrapper.java:57) ~[mule-module-launcher-3.7.3.jar:3.7.3]
+	at org.mule.module.launcher.DefaultArtifactDeployer.deploy(DefaultArtifactDeployer.java:25) ~[mule-module-launcher-3.7.3.jar:3.7.3]
+	at org.mule.module.launcher.DefaultArchiveDeployer.redeploy(DefaultArchiveDeployer.java:544) ~[mule-module-launcher-3.7.3.jar:3.7.3]
+	at org.mule.module.launcher.DeploymentDirectoryWatcher.redeployModifiedArtifacts(DeploymentDirectoryWatcher.java:549) ~[mule-module-launcher-3.7.3.jar:3.7.3]
+	at org.mule.module.launcher.DeploymentDirectoryWatcher.redeployModifiedApplications(DeploymentDirectoryWatcher.java:538) ~[mule-module-launcher-3.7.3.jar:3.7.3]
+	at org.mule.module.launcher.DeploymentDirectoryWatcher.run(DeploymentDirectoryWatcher.java:348) ~[mule-module-launcher-3.7.3.jar:3.7.3]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_191]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) ~[?:1.8.0_191]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) ~[?:1.8.0_191]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) ~[?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+2019-03-06 19:56:08,085 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - App 'training-american-ws' never started, nothing to dispose of
+2019-03-06 19:57:13,427 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'training-american-ws'                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 19:57:13,443 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2019-03-06 19:57:13,459 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2019-03-06 19:57:13,474 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2019-03-06 19:57:13,474 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.7)
+2019-03-06 19:57:13,474 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@96031d4: startup date [Wed Mar 06 19:57:13 GMT 2019]; root of context hierarchy
+2019-03-06 19:57:13,787 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-06 19:57:13,865 [Mule.app.deployer.monitor.1.thread.1] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 19:57:13,865 [Mule.app.deployer.monitor.1.thread.1] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 19:57:13,865 [Mule.app.deployer.monitor.1.thread.1] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 19:57:13,865 [Mule.app.deployer.monitor.1.thread.1] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 19:57:14,177 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising connector: Active_MQ
+2019-03-06 19:57:14,240 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2019-03-06 19:57:14,240 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: training-american-wsFlow
+2019-03-06 19:57:14,240 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@1c3411ea
+2019-03-06 19:57:14,255 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: training-american-wsFlow.stage1
+2019-03-06 19:57:14,255 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: training-american-wsFlow1
+2019-03-06 19:57:14,255 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@65b1a72a
+2019-03-06 19:57:14,271 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: training-american-wsFlow1.stage1
+2019-03-06 19:57:14,271 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: training-american-wsFlow2
+2019-03-06 19:57:14,271 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@7c941aa6
+2019-03-06 19:57:14,287 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: training-american-wsFlow2.stage1
+2019-03-06 19:57:14,287 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-tx-log\tx1.log and C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-tx-log\tx2.log
+2019-03-06 19:57:14,287 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-xa-tx-log\tx1.log and C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-xa-tx-log\tx2.log
+2019-03-06 19:57:14,365 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Mule Practise\Pradyu\.mule\apps\training-american-ws\training-american-ws.xml'}]"
+2019-03-06 19:57:14,365 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Mule Practise\Pradyu\.mule\apps\training-american-ws\training-american-ws.xml'}]"
+2019-03-06 19:57:14,365 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'training-american-ws'                      +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 19:57:14,365 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2019-03-06 19:57:14,365 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2019-03-06 19:57:14,396 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8081
+2019-03-06 19:57:14,401 [Mule.app.deployer.monitor.1.thread.1] ERROR org.mule.retry.notifiers.ConnectNotifier - Failed to connect/reconnect: ActiveMQJmsConnector
+{
+  name=Active_MQ
+  lifecycle=initialise
+  this=5da4ae84
+  numberOfConcurrentTransactedReceivers=4
+  createMultipleTransactedReceivers=true
+  connected=false
+  supportedProtocols=[jms]
+  serviceOverrides=<none>
+}
+. Root Exception was: org.apache.activemq.ActiveMQConnectionFactory. Type: class java.lang.ClassNotFoundException
+2019-03-06 19:57:14,401 [Mule.app.deployer.monitor.1.thread.1] ERROR org.mule.module.launcher.application.DefaultMuleApplication - null
+java.lang.ClassNotFoundException: org.apache.activemq.ActiveMQConnectionFactory
+	at org.mule.util.ClassUtils.loadClass(ClassUtils.java:317) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.util.ClassUtils.loadClass(ClassUtils.java:213) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.util.ClassUtils.instanciateClass(ClassUtils.java:504) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.util.ClassUtils.instanciateClass(ClassUtils.java:482) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.transport.jms.activemq.ActiveMQJmsConnector.getDefaultConnectionFactory(ActiveMQJmsConnector.java:46) ~[mule-transport-jms-3.7.3.jar:3.7.3]
+	at org.mule.transport.jms.JmsConnector.createConnectionFactory(JmsConnector.java:319) ~[mule-transport-jms-3.7.3.jar:3.7.3]
+	at org.mule.transport.jms.JmsConnector.createConnection(JmsConnector.java:418) ~[mule-transport-jms-3.7.3.jar:3.7.3]
+	at org.mule.transport.jms.JmsConnector.doConnect(JmsConnector.java:537) ~[mule-transport-jms-3.7.3.jar:3.7.3]
+	at org.mule.transport.AbstractConnector$5.doWork(AbstractConnector.java:1603) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.retry.policies.AbstractPolicyTemplate.execute(AbstractPolicyTemplate.java:63) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.transport.AbstractConnector.connect(AbstractConnector.java:1668) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.transport.jms.JmsConnector.connect(JmsConnector.java:466) ~[mule-transport-jms-3.7.3.jar:3.7.3]
+	at org.mule.transport.AbstractConnector.start(AbstractConnector.java:443) ~[mule-core-3.7.3.jar:3.7.3]
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_191]
+	at org.mule.lifecycle.phases.DefaultLifecyclePhase.applyLifecycle(DefaultLifecyclePhase.java:237) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.lifecycle.RegistryLifecycleCallback.doApplyLifecycle(RegistryLifecycleCallback.java:91) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.lifecycle.RegistryLifecycleCallback.onTransition(RegistryLifecycleCallback.java:67) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.lifecycle.RegistryLifecycleManager.invokePhase(RegistryLifecycleManager.java:140) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.lifecycle.RegistryLifecycleManager.fireLifecycle(RegistryLifecycleManager.java:111) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.registry.AbstractRegistryBroker.fireLifecycle(AbstractRegistryBroker.java:88) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.registry.MuleRegistryHelper.fireLifecycle(MuleRegistryHelper.java:141) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.lifecycle.MuleContextLifecycleManager$MuleContextLifecycleCallback.onTransition(MuleContextLifecycleManager.java:91) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.lifecycle.MuleContextLifecycleManager$MuleContextLifecycleCallback.onTransition(MuleContextLifecycleManager.java:87) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.lifecycle.MuleContextLifecycleManager.invokePhase(MuleContextLifecycleManager.java:69) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.lifecycle.MuleContextLifecycleManager.fireLifecycle(MuleContextLifecycleManager.java:61) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.DefaultMuleContext.start(DefaultMuleContext.java:294) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.module.launcher.application.DefaultMuleApplication.start(DefaultMuleApplication.java:134) ~[mule-module-launcher-3.7.3.jar:3.7.3]
+	at org.mule.module.launcher.artifact.ArtifactWrapper$4.execute(ArtifactWrapper.java:98) ~[mule-module-launcher-3.7.3.jar:3.7.3]
+	at org.mule.module.launcher.artifact.ArtifactWrapper.executeWithinArtifactClassLoader(ArtifactWrapper.java:129) ~[mule-module-launcher-3.7.3.jar:3.7.3]
+	at org.mule.module.launcher.artifact.ArtifactWrapper.start(ArtifactWrapper.java:93) ~[mule-module-launcher-3.7.3.jar:3.7.3]
+	at org.mule.module.launcher.DefaultArtifactDeployer.deploy(DefaultArtifactDeployer.java:26) ~[mule-module-launcher-3.7.3.jar:3.7.3]
+	at org.mule.module.launcher.DefaultArchiveDeployer.redeploy(DefaultArchiveDeployer.java:544) ~[mule-module-launcher-3.7.3.jar:3.7.3]
+	at org.mule.module.launcher.DeploymentDirectoryWatcher.redeployModifiedArtifacts(DeploymentDirectoryWatcher.java:549) ~[mule-module-launcher-3.7.3.jar:3.7.3]
+	at org.mule.module.launcher.DeploymentDirectoryWatcher.redeployModifiedApplications(DeploymentDirectoryWatcher.java:538) ~[mule-module-launcher-3.7.3.jar:3.7.3]
+	at org.mule.module.launcher.DeploymentDirectoryWatcher.run(DeploymentDirectoryWatcher.java:348) ~[mule-module-launcher-3.7.3.jar:3.7.3]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_191]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) ~[?:1.8.0_191]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) ~[?:1.8.0_191]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) ~[?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+2019-03-06 19:57:14,401 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Disposing app 'training-american-ws'                     +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 19:57:14,401 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing RegistryBroker
+2019-03-06 19:57:14,401 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Disposing flow: training-american-wsFlow
+2019-03-06 19:57:14,401 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Disposing service: training-american-wsFlow.stage1
+2019-03-06 19:57:14,401 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Disposing flow: training-american-wsFlow1
+2019-03-06 19:57:14,417 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Disposing service: training-american-wsFlow1.stage1
+2019-03-06 19:57:14,417 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Disposing flow: training-american-wsFlow2
+2019-03-06 19:57:14,417 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Disposing service: training-american-wsFlow2.stage1
+2019-03-06 19:57:14,432 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing model: _muleSystemModel
+2019-03-06 19:57:14,432 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing connector: Active_MQ
+2019-03-06 19:57:14,463 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.MuleArtifactContext - Closing org.mule.config.spring.MuleArtifactContext@96031d4: startup date [Wed Mar 06 19:57:13 GMT 2019]; root of context hierarchy
+2019-03-06 19:57:14,620 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application "training-american-ws" shut down normally on: 6/3/19   *
+* 7:57 PM                                                            *
+* Up for: 0 days, 0 hours, 0 mins, 0.255 sec                         *
+**********************************************************************
+2019-03-06 19:57:44,799 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'training-american-ws'                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 19:57:44,799 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2019-03-06 19:57:44,814 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2019-03-06 19:57:44,830 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2019-03-06 19:57:44,830 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.7)
+2019-03-06 19:57:44,830 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@130786ff: startup date [Wed Mar 06 19:57:44 GMT 2019]; root of context hierarchy
+2019-03-06 19:57:45,095 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-06 19:57:45,142 [Mule.app.deployer.monitor.1.thread.1] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 19:57:45,142 [Mule.app.deployer.monitor.1.thread.1] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 19:57:45,142 [Mule.app.deployer.monitor.1.thread.1] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 19:57:45,142 [Mule.app.deployer.monitor.1.thread.1] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 19:57:45,283 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising connector: Active_MQ
+2019-03-06 19:57:45,330 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2019-03-06 19:57:45,345 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: training-american-wsFlow
+2019-03-06 19:57:45,345 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@560bbb16
+2019-03-06 19:57:45,345 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: training-american-wsFlow.stage1
+2019-03-06 19:57:45,345 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: training-american-wsFlow1
+2019-03-06 19:57:45,345 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@208241d5
+2019-03-06 19:57:45,361 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: training-american-wsFlow1.stage1
+2019-03-06 19:57:45,361 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: training-american-wsFlow2
+2019-03-06 19:57:45,361 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@39c8ecf3
+2019-03-06 19:57:45,361 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: training-american-wsFlow2.stage1
+2019-03-06 19:57:45,377 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-tx-log\tx1.log and C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-tx-log\tx2.log
+2019-03-06 19:57:45,377 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-xa-tx-log\tx1.log and C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-xa-tx-log\tx2.log
+2019-03-06 19:57:45,439 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Mule Practise\Pradyu\.mule\apps\training-american-ws\training-american-ws.xml'}]"
+2019-03-06 19:57:45,439 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Mule Practise\Pradyu\.mule\apps\training-american-ws\training-american-ws.xml'}]"
+2019-03-06 19:57:45,439 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'training-american-ws'                      +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 19:57:45,439 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2019-03-06 19:57:45,439 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2019-03-06 19:57:45,455 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8081
+2019-03-06 19:57:45,470 [Mule.app.deployer.monitor.1.thread.1] ERROR org.mule.retry.notifiers.ConnectNotifier - Failed to connect/reconnect: ActiveMQJmsConnector
+{
+  name=Active_MQ
+  lifecycle=initialise
+  this=b9f684c
+  numberOfConcurrentTransactedReceivers=4
+  createMultipleTransactedReceivers=true
+  connected=false
+  supportedProtocols=[jms]
+  serviceOverrides=<none>
+}
+. Root Exception was: org.apache.activemq.ActiveMQConnectionFactory. Type: class java.lang.ClassNotFoundException
+2019-03-06 19:57:45,470 [Mule.app.deployer.monitor.1.thread.1] ERROR org.mule.module.launcher.application.DefaultMuleApplication - null
+java.lang.ClassNotFoundException: org.apache.activemq.ActiveMQConnectionFactory
+	at org.mule.util.ClassUtils.loadClass(ClassUtils.java:317) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.util.ClassUtils.loadClass(ClassUtils.java:213) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.util.ClassUtils.instanciateClass(ClassUtils.java:504) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.util.ClassUtils.instanciateClass(ClassUtils.java:482) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.transport.jms.activemq.ActiveMQJmsConnector.getDefaultConnectionFactory(ActiveMQJmsConnector.java:46) ~[mule-transport-jms-3.7.3.jar:3.7.3]
+	at org.mule.transport.jms.JmsConnector.createConnectionFactory(JmsConnector.java:319) ~[mule-transport-jms-3.7.3.jar:3.7.3]
+	at org.mule.transport.jms.JmsConnector.createConnection(JmsConnector.java:418) ~[mule-transport-jms-3.7.3.jar:3.7.3]
+	at org.mule.transport.jms.JmsConnector.doConnect(JmsConnector.java:537) ~[mule-transport-jms-3.7.3.jar:3.7.3]
+	at org.mule.transport.AbstractConnector$5.doWork(AbstractConnector.java:1603) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.retry.policies.AbstractPolicyTemplate.execute(AbstractPolicyTemplate.java:63) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.transport.AbstractConnector.connect(AbstractConnector.java:1668) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.transport.jms.JmsConnector.connect(JmsConnector.java:466) ~[mule-transport-jms-3.7.3.jar:3.7.3]
+	at org.mule.transport.AbstractConnector.start(AbstractConnector.java:443) ~[mule-core-3.7.3.jar:3.7.3]
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_191]
+	at org.mule.lifecycle.phases.DefaultLifecyclePhase.applyLifecycle(DefaultLifecyclePhase.java:237) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.lifecycle.RegistryLifecycleCallback.doApplyLifecycle(RegistryLifecycleCallback.java:91) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.lifecycle.RegistryLifecycleCallback.onTransition(RegistryLifecycleCallback.java:67) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.lifecycle.RegistryLifecycleManager.invokePhase(RegistryLifecycleManager.java:140) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.lifecycle.RegistryLifecycleManager.fireLifecycle(RegistryLifecycleManager.java:111) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.registry.AbstractRegistryBroker.fireLifecycle(AbstractRegistryBroker.java:88) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.registry.MuleRegistryHelper.fireLifecycle(MuleRegistryHelper.java:141) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.lifecycle.MuleContextLifecycleManager$MuleContextLifecycleCallback.onTransition(MuleContextLifecycleManager.java:91) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.lifecycle.MuleContextLifecycleManager$MuleContextLifecycleCallback.onTransition(MuleContextLifecycleManager.java:87) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.lifecycle.MuleContextLifecycleManager.invokePhase(MuleContextLifecycleManager.java:69) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.lifecycle.MuleContextLifecycleManager.fireLifecycle(MuleContextLifecycleManager.java:61) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.DefaultMuleContext.start(DefaultMuleContext.java:294) ~[mule-core-3.7.3.jar:3.7.3]
+	at org.mule.module.launcher.application.DefaultMuleApplication.start(DefaultMuleApplication.java:134) ~[mule-module-launcher-3.7.3.jar:3.7.3]
+	at org.mule.module.launcher.artifact.ArtifactWrapper$4.execute(ArtifactWrapper.java:98) ~[mule-module-launcher-3.7.3.jar:3.7.3]
+	at org.mule.module.launcher.artifact.ArtifactWrapper.executeWithinArtifactClassLoader(ArtifactWrapper.java:129) ~[mule-module-launcher-3.7.3.jar:3.7.3]
+	at org.mule.module.launcher.artifact.ArtifactWrapper.start(ArtifactWrapper.java:93) ~[mule-module-launcher-3.7.3.jar:3.7.3]
+	at org.mule.module.launcher.DefaultArtifactDeployer.deploy(DefaultArtifactDeployer.java:26) ~[mule-module-launcher-3.7.3.jar:3.7.3]
+	at org.mule.module.launcher.DefaultArchiveDeployer.redeploy(DefaultArchiveDeployer.java:544) ~[mule-module-launcher-3.7.3.jar:3.7.3]
+	at org.mule.module.launcher.DeploymentDirectoryWatcher.redeployModifiedArtifacts(DeploymentDirectoryWatcher.java:549) ~[mule-module-launcher-3.7.3.jar:3.7.3]
+	at org.mule.module.launcher.DeploymentDirectoryWatcher.redeployModifiedApplications(DeploymentDirectoryWatcher.java:538) ~[mule-module-launcher-3.7.3.jar:3.7.3]
+	at org.mule.module.launcher.DeploymentDirectoryWatcher.run(DeploymentDirectoryWatcher.java:348) ~[mule-module-launcher-3.7.3.jar:3.7.3]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_191]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) ~[?:1.8.0_191]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) ~[?:1.8.0_191]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) ~[?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+2019-03-06 19:57:45,470 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Disposing app 'training-american-ws'                     +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 19:57:45,470 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing RegistryBroker
+2019-03-06 19:57:45,470 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Disposing flow: training-american-wsFlow
+2019-03-06 19:57:45,470 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Disposing service: training-american-wsFlow.stage1
+2019-03-06 19:57:45,470 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Disposing flow: training-american-wsFlow1
+2019-03-06 19:57:45,470 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Disposing service: training-american-wsFlow1.stage1
+2019-03-06 19:57:45,470 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Disposing flow: training-american-wsFlow2
+2019-03-06 19:57:45,470 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Disposing service: training-american-wsFlow2.stage1
+2019-03-06 19:57:45,470 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing model: _muleSystemModel
+2019-03-06 19:57:45,470 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing connector: Active_MQ
+2019-03-06 19:57:45,517 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.MuleArtifactContext - Closing org.mule.config.spring.MuleArtifactContext@130786ff: startup date [Wed Mar 06 19:57:44 GMT 2019]; root of context hierarchy
+2019-03-06 19:57:45,689 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application "training-american-ws" shut down normally on: 6/3/19   *
+* 7:57 PM                                                            *
+* Up for: 0 days, 0 hours, 0 mins, 0.250 sec                         *
+**********************************************************************
+2019-03-06 19:58:09,170 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'training-american-ws'                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 19:58:09,544 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2019-03-06 19:58:09,687 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2019-03-06 19:58:09,858 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2019-03-06 19:58:09,858 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.7)
+2019-03-06 19:58:09,921 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@340b9973: startup date [Wed Mar 06 19:58:09 GMT 2019]; root of context hierarchy
+2019-03-06 19:58:11,665 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-06 19:58:12,032 [main] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 19:58:12,032 [main] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 19:58:12,048 [main] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 19:58:12,048 [main] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 19:58:13,069 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2019-03-06 19:58:13,943 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising connector: Active_MQ
+2019-03-06 19:58:14,146 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2019-03-06 19:58:14,154 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: training-american-wsFlow
+2019-03-06 19:58:14,154 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@7f1ef916
+2019-03-06 19:58:14,186 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: training-american-wsFlow.stage1
+2019-03-06 19:58:14,186 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: training-american-wsFlow1
+2019-03-06 19:58:14,186 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@3b5c665c
+2019-03-06 19:58:14,201 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: training-american-wsFlow1.stage1
+2019-03-06 19:58:14,389 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: training-american-wsFlow2
+2019-03-06 19:58:14,389 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@77c10a5f
+2019-03-06 19:58:14,389 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: training-american-wsFlow2.stage1
+2019-03-06 19:58:14,436 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-tx-log\tx1.log and C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-tx-log\tx2.log
+2019-03-06 19:58:14,451 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-xa-tx-log\tx1.log and C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-xa-tx-log\tx2.log
+2019-03-06 19:58:14,576 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Mule Practise\Pradyu\.mule\apps\training-american-ws\training-american-ws.xml'}]"
+2019-03-06 19:58:14,576 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Mule Practise\Pradyu\.mule\apps\training-american-ws\training-american-ws.xml'}]"
+2019-03-06 19:58:14,576 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'training-american-ws'                      +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 19:58:14,576 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2019-03-06 19:58:14,576 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2019-03-06 19:58:14,639 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8081
+2019-03-06 19:58:15,279 [main] INFO  org.mule.transport.jms.CustomCachingConnectionFactory - Established shared JMS Connection: ActiveMQConnection {id=ID:Padmaja-53916-1551902295154-1:1,clientId=null,started=false}
+2019-03-06 19:58:15,699 [main] INFO  org.mule.transport.jms.activemq.ActiveMQJmsConnector - Connected: ActiveMQJmsConnector
+{
+  name=Active_MQ
+  lifecycle=initialise
+  this=2dc3271b
+  numberOfConcurrentTransactedReceivers=4
+  createMultipleTransactedReceivers=true
+  connected=true
+  supportedProtocols=[jms]
+  serviceOverrides=<none>
+}
+
+2019-03-06 19:58:15,699 [main] INFO  org.mule.transport.jms.activemq.ActiveMQJmsConnector - Starting: ActiveMQJmsConnector
+{
+  name=Active_MQ
+  lifecycle=initialise
+  this=2dc3271b
+  numberOfConcurrentTransactedReceivers=4
+  createMultipleTransactedReceivers=true
+  connected=true
+  supportedProtocols=[jms]
+  serviceOverrides=<none>
+}
+
+2019-03-06 19:58:15,699 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting connector: Active_MQ
+2019-03-06 19:58:15,699 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 19:58:15,699 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2019-03-06 19:58:15,715 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: training-american-wsFlow
+2019-03-06 19:58:15,715 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: training-american-wsFlow.stage1
+2019-03-06 19:58:15,715 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: training-american-wsFlow1
+2019-03-06 19:58:15,715 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: training-american-wsFlow1.stage1
+2019-03-06 19:58:15,715 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: training-american-wsFlow2
+2019-03-06 19:58:15,731 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: training-american-wsFlow2.stage1
+2019-03-06 19:58:15,731 [main] INFO  org.mule.transport.jms.activemq.ActiveMQJmsConnector - Registering listener: training-american-wsFlow2 on endpointUri: jms://topic:testTopic
+2019-03-06 19:58:15,746 [main] INFO  org.mule.transport.jms.MultiConsumerJmsMessageReceiver - Destination jms://topic:testTopic is a topic, but 4 receivers have been requested. Will configure only 1.
+2019-03-06 19:58:15,746 [main] INFO  org.mule.transport.service.DefaultTransportServiceDescriptor - Loading default inbound transformer: org.mule.transport.jms.transformers.JMSMessageToObject
+2019-03-06 19:58:15,746 [main] INFO  org.mule.transport.service.DefaultTransportServiceDescriptor - Loading default response transformer: org.mule.transport.jms.transformers.ObjectToJMSMessage
+2019-03-06 19:58:15,746 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising: 'null'. Object is: MultiConsumerJmsMessageReceiver
+2019-03-06 19:58:15,746 [main] INFO  org.mule.transport.jms.MultiConsumerJmsMessageReceiver - Connecting clusterizable message receiver
+2019-03-06 19:58:15,856 [main] INFO  org.mule.transport.jms.MultiConsumerJmsMessageReceiver - Endpoint jms://topic:testTopic has been successfully reconnected.
+2019-03-06 19:58:15,856 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting: 'null'. Object is: MultiConsumerJmsMessageReceiver
+2019-03-06 19:58:15,856 [main] INFO  org.mule.transport.jms.MultiConsumerJmsMessageReceiver - Starting clusterizable message receiver
+2019-03-06 19:58:15,902 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2019-03-06 19:58:15,934 [main] INFO  org.mule.module.management.agent.AbstractJmxAgent - Attempting to register service with name: Mule.training-american-ws:type=Endpoint,service="training-american-wsFlow2",connector=Active_MQ,name="endpoint.jms.testTopic"
+2019-03-06 19:58:15,934 [main] INFO  org.mule.module.management.agent.AbstractJmxAgent - Registered Endpoint Service with name: Mule.training-american-ws:type=Endpoint,service="training-american-wsFlow2",connector=Active_MQ,name="endpoint.jms.testTopic"
+2019-03-06 19:58:15,934 [main] INFO  org.mule.module.management.agent.AbstractJmxAgent - Registered Connector Service with name Mule.training-american-ws:type=Connector,name="Active.MQ"
+2019-03-06 19:58:15,949 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: training-american-ws                                  *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   JMX Agent                                                        *
+*   DevKit Extension Information                                     *
+*   Batch module default engine                                      *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2019-03-06 19:58:23,934 [[training-american-ws].HTTP_Listener_Configuration.worker.01] INFO  org.mule.api.processor.LoggerMessageProcessor - [{"AGE":"10","ENAME":"aaa","ID":"1"},{"AGE":"20","ENAME":"bbb","ID":"2"},{"AGE":"30","ENAME":"ccc","ID":"3"},{"AGE":"40","ENAME":"ddd","ID":"4"},{"AGE":"45","ENAME":"eee","ID":"5"},{"AGE":"30","ENAME":"United Kingdom","ID":"8119"},{"AGE":"25","ENAME":"Australia","ID":"8120"},{"AGE":"30","ENAME":"Austria","ID":"8121"},{"AGE":"27","ENAME":"Germany","ID":"8122"},{"AGE":"25","ENAME":"New York City","ID":"8217"},{"AGE":"28","ENAME":"United Kingdom","ID":"8218"},{"AGE":"30","ENAME":"United Kingdom","ID":"8219"},{"AGE":"25","ENAME":"Australia","ID":"8220"},{"AGE":"30","ENAME":"Austria","ID":"8221"},{"AGE":"27","ENAME":"Germany","ID":"8222"},{"AGE":null,"ENAME":null,"ID":null},{"AGE":null,"ENAME":null,"ID":null},{"AGE":null,"ENAME":null,"ID":null},{"AGE":null,"ENAME":null,"ID":null},{"AGE":null,"ENAME":null,"ID":null},{"AGE":null,"ENAME":null,"ID":null},{"AGE":"25","ENAME":"New York City","ID":"8817"},{"AGE":"28","ENAME":"United Kingdom","ID":"8818"},{"AGE":"30","ENAME":"United Kingdom","ID":"8819"},{"AGE":"25","ENAME":"Australia","ID":"8820"},{"AGE":"30","ENAME":"Austria","ID":"8821"},{"AGE":"27","ENAME":"Germany","ID":"8822"},{"AGE":"25","ENAME":"New York City","ID":"8917"},{"AGE":"28","ENAME":"United Kingdom","ID":"8918"},{"AGE":"30","ENAME":"United Kingdom","ID":"8919"},{"AGE":"25","ENAME":"Australia","ID":"8920"},{"AGE":"30","ENAME":"Austria","ID":"8921"},{"AGE":"27","ENAME":"Germany","ID":"8922"},{"AGE":"25","ENAME":"New York City","ID":"8117"},{"AGE":"28","ENAME":"United Kingdom","ID":"8118"},{"AGE":"30","ENAME":"United Kingdom","ID":"8119"},{"AGE":"25","ENAME":"Australia","ID":"8120"},{"AGE":"30","ENAME":"Austria","ID":"8121"},{"AGE":"27","ENAME":"Germany","ID":"8122"},{"AGE":"25","ENAME":"New York City","ID":"8117"},{"AGE":"28","ENAME":"United Kingdom","ID":"8118"}]
+2019-03-06 19:58:23,974 [[training-american-ws].HTTP_Listener_Configuration.worker.01] INFO  org.mule.transport.service.DefaultTransportServiceDescriptor - Loading default outbound transformer: org.mule.transport.jms.transformers.ObjectToJMSMessage
+2019-03-06 19:58:23,974 [[training-american-ws].HTTP_Listener_Configuration.worker.01] INFO  org.mule.transport.service.DefaultTransportServiceDescriptor - Loading default response transformer: org.mule.transport.jms.transformers.ObjectToJMSMessage
+2019-03-06 19:58:23,974 [[training-american-ws].HTTP_Listener_Configuration.worker.01] WARN  com.mulesoft.mule.transport.jms.EeJmsMessageDispatcher - Starting patched JmsMessageReceiver
+2019-03-06 19:58:23,974 [[training-american-ws].HTTP_Listener_Configuration.worker.01] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising: 'Active_MQ.dispatcher.579626580'. Object is: EeJmsMessageDispatcher
+2019-03-06 19:58:23,989 [[training-american-ws].HTTP_Listener_Configuration.worker.01] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting: 'Active_MQ.dispatcher.579626580'. Object is: EeJmsMessageDispatcher
+2019-03-06 19:58:24,177 [[training-american-ws].training-american-wsFlow2.stage1.02] ERROR org.mule.exception.DefaultMessagingExceptionStrategy - 
+********************************************************************************
+Message               : Object "java.lang.String" not of correct type. It must be of type "{interface java.lang.Iterable,interface java.util.Iterator,interface org.mule.routing.MessageSequence,interface java.util.Collection}" (java.lang.IllegalArgumentException). Message payload is of type: String
+Type                  : org.mule.api.MessagingException
+Code                  : MULE_ERROR--2
+JavaDoc               : http://www.mulesoft.org/docs/site/current3/apidocs/org/mule/api/MessagingException.html
+Payload               : [{"AGE":"10","ENAME":"aaa","ID":"1"},{"AGE":"20","ENAME":"bbb","ID":"2"},{"AGE":"30","ENAME":"ccc","ID":"3"},{"AGE":"40","ENAME":"ddd","ID":"4"},{"AGE":"45","ENAME":"eee","ID":"5"},{"AGE":"30","ENAME":"United Kingdom","ID":"8119"},{"AGE":"25","ENAME":"Australia","ID":"8120"},{"AGE":"30","ENAME":"Austria","ID":"8121"},{"AGE":"27","ENAME":"Germany","ID":"8122"},{"AGE":"25","ENAME":"New York City","ID":"8217"},{"AGE":"28","ENAME":"United Kingdom","ID":"8218"},{"AGE":"30","ENAME":"United Kingdom","ID":"8219"},{"AGE":"25","ENAME":"Australia","ID":"8220"},{"AGE":"30","ENAME":"Austria","ID":"8221"},{"AGE":"27","ENAME":"Germany","ID":"8222"},{"AGE":null,"ENAME":null,"ID":null},{"AGE":null,"ENAME":null,"ID":null},{"AGE":null,"ENAME":null,"ID":null},{"AGE":null,"ENAME":null,"ID":null},{"AGE":null,"ENAME":null,"ID":null},{"AGE":null,"ENAME":null,"ID":null},{"AGE":"25","ENAME":"New York City","ID":"8817"},{"AGE":"28","ENAME":"United Kingdom","ID":"8818"},{"AGE":"30","ENAME":"United Kingdom","ID...
+********************************************************************************
+Exception stack is:
+1. Object "java.lang.String" not of correct type. It must be of type "{interface java.lang.Iterable,interface java.util.Iterator,interface org.mule.routing.MessageSequence,interface java.util.Collection}" (java.lang.IllegalArgumentException)
+  org.mule.util.collection.EventToMessageSequenceSplittingStrategy:64 (null)
+2. Object "java.lang.String" not of correct type. It must be of type "{interface java.lang.Iterable,interface java.util.Iterator,interface org.mule.routing.MessageSequence,interface java.util.Collection}" (java.lang.IllegalArgumentException). Message payload is of type: String (org.mule.api.MessagingException)
+  org.mule.execution.ExceptionToMessagingExceptionExecutionInterceptor:32 (http://www.mulesoft.org/docs/site/current3/apidocs/org/mule/api/MessagingException.html)
+********************************************************************************
+Root Exception stack trace:
+java.lang.IllegalArgumentException: Object "java.lang.String" not of correct type. It must be of type "{interface java.lang.Iterable,interface java.util.Iterator,interface org.mule.routing.MessageSequence,interface java.util.Collection}"
+	at org.mule.util.collection.EventToMessageSequenceSplittingStrategy.split(EventToMessageSequenceSplittingStrategy.java:64)
+	at org.mule.util.collection.EventToMessageSequenceSplittingStrategy.split(EventToMessageSequenceSplittingStrategy.java:25)
+	at org.mule.routing.CollectionSplitter.splitMessageIntoSequence(CollectionSplitter.java:29)
+	at org.mule.routing.outbound.AbstractMessageSequenceSplitter.process(AbstractMessageSequenceSplitter.java:56)
+	at org.mule.execution.ExceptionToMessagingExceptionExecutionInterceptor.execute(ExceptionToMessagingExceptionExecutionInterceptor.java:24)
+	at org.mule.execution.MessageProcessorNotificationExecutionInterceptor.execute(MessageProcessorNotificationExecutionInterceptor.java:107)
+	at org.mule.execution.MessageProcessorExecutionTemplate.execute(MessageProcessorExecutionTemplate.java:44)
+	at org.mule.processor.BlockingProcessorExecutor.executeNext(BlockingProcessorExecutor.java:98)
+	at org.mule.processor.BlockingProcessorExecutor.execute(BlockingProcessorExecutor.java:59)
+	at org.mule.interceptor.AbstractEnvelopeInterceptor.processBlocking(AbstractEnvelopeInterceptor.java:58)
+	at org.mule.processor.AbstractRequestResponseMessageProcessor.process(AbstractRequestResponseMessageProcessor.java:47)
+	at org.mule.processor.AsyncInterceptingMessageProcessor.processNextTimed(AsyncInterceptingMessageProcessor.java:123)
+	at org.mule.processor.AsyncInterceptingMessageProcessor$AsyncMessageProcessorWorker$1.process(AsyncInterceptingMessageProcessor.java:208)
+	at org.mule.processor.AsyncInterceptingMessageProcessor$AsyncMessageProcessorWorker$1.process(AsyncInterceptingMessageProcessor.java:201)
+	at org.mule.execution.ExecuteCallbackInterceptor.execute(ExecuteCallbackInterceptor.java:16)
+	at org.mule.execution.CommitTransactionInterceptor.execute(CommitTransactionInterceptor.java:35)
+	at org.mule.execution.CommitTransactionInterceptor.execute(CommitTransactionInterceptor.java:22)
+	at org.mule.execution.HandleExceptionInterceptor.execute(HandleExceptionInterceptor.java:30)
+	at org.mule.execution.HandleExceptionInterceptor.execute(HandleExceptionInterceptor.java:14)
+	at org.mule.execution.BeginAndResolveTransactionInterceptor.execute(BeginAndResolveTransactionInterceptor.java:67)
+	at org.mule.execution.ResolvePreviousTransactionInterceptor.execute(ResolvePreviousTransactionInterceptor.java:44)
+	at org.mule.execution.SuspendXaTransactionInterceptor.execute(SuspendXaTransactionInterceptor.java:50)
+	at org.mule.execution.ValidateTransactionalStateInterceptor.execute(ValidateTransactionalStateInterceptor.java:40)
+	at org.mule.execution.IsolateCurrentTransactionInterceptor.execute(IsolateCurrentTransactionInterceptor.java:41)
+	at org.mule.execution.ExternalTransactionInterceptor.execute(ExternalTransactionInterceptor.java:48)
+	at org.mule.execution.RethrowExceptionInterceptor.execute(RethrowExceptionInterceptor.java:28)
+	at org.mule.execution.RethrowExceptionInterceptor.execute(RethrowExceptionInterceptor.java:13)
+	at org.mule.execution.TransactionalErrorHandlingExecutionTemplate.execute(TransactionalErrorHandlingExecutionTemplate.java:110)
+	at org.mule.execution.TransactionalErrorHandlingExecutionTemplate.execute(TransactionalErrorHandlingExecutionTemplate.java:30)
+	at org.mule.processor.AsyncInterceptingMessageProcessor$AsyncMessageProcessorWorker.doRun(AsyncInterceptingMessageProcessor.java:200)
+	at org.mule.work.AbstractMuleEventWork.run(AbstractMuleEventWork.java:49)
+	at org.mule.work.WorkerContext.run(WorkerContext.java:286)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+********************************************************************************
+
+2019-03-06 20:00:46,364 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Stopping app 'training-american-ws'                      +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 20:00:46,375 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Stopping flow: training-american-wsFlow
+2019-03-06 20:00:46,375 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Stopping service: training-american-wsFlow.stage1
+2019-03-06 20:00:46,532 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Stopping flow: training-american-wsFlow1
+2019-03-06 20:00:46,532 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Stopping service: training-american-wsFlow1.stage1
+2019-03-06 20:00:46,738 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Stopping flow: training-american-wsFlow2
+2019-03-06 20:00:46,738 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.transport.jms.activemq.ActiveMQJmsConnector - Removing listener on endpointUri: jms://topic:testTopic
+2019-03-06 20:00:46,738 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Stopping: 'null'. Object is: MultiConsumerJmsMessageReceiver
+2019-03-06 20:00:46,738 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing: 'null'. Object is: MultiConsumerJmsMessageReceiver
+2019-03-06 20:00:46,738 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Stopping service: training-american-wsFlow2.stage1
+2019-03-06 20:00:46,893 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Stopping model: _muleSystemModel
+2019-03-06 20:00:46,896 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Stopping connector: Active_MQ
+2019-03-06 20:00:46,899 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Stopping: 'Active_MQ.dispatcher.579626580'. Object is: EeJmsMessageDispatcher
+2019-03-06 20:00:46,900 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing: 'Active_MQ.dispatcher.579626580'. Object is: EeJmsMessageDispatcher
+2019-03-06 20:00:46,906 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Stopped listener on http://0.0.0.0:8081
+2019-03-06 20:00:46,907 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Stopping ResourceManager
+2019-03-06 20:00:46,908 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Stopped ResourceManager
+2019-03-06 20:00:46,913 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Disposing app 'training-american-ws'                     +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 20:00:46,914 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing RegistryBroker
+2019-03-06 20:00:46,916 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Disposing flow: training-american-wsFlow
+2019-03-06 20:00:46,916 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Disposing service: training-american-wsFlow.stage1
+2019-03-06 20:00:46,920 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Disposing flow: training-american-wsFlow1
+2019-03-06 20:00:46,921 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Disposing service: training-american-wsFlow1.stage1
+2019-03-06 20:00:46,923 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Disposing flow: training-american-wsFlow2
+2019-03-06 20:00:46,923 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Disposing service: training-american-wsFlow2.stage1
+2019-03-06 20:00:46,925 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing model: _muleSystemModel
+2019-03-06 20:00:46,930 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.transport.jms.activemq.ActiveMQJmsConnector - Disconnected: ActiveMQJmsConnector
+{
+  name=Active_MQ
+  lifecycle=stop
+  this=2dc3271b
+  numberOfConcurrentTransactedReceivers=4
+  createMultipleTransactedReceivers=true
+  connected=true
+  supportedProtocols=[jms]
+  serviceOverrides=<none>
+}
+
+2019-03-06 20:00:46,931 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing connector: Active_MQ
+2019-03-06 20:00:47,072 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.MuleArtifactContext - Closing org.mule.config.spring.MuleArtifactContext@340b9973: startup date [Wed Mar 06 19:58:09 GMT 2019]; root of context hierarchy
+2019-03-06 20:00:47,135 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application "training-american-ws" shut down normally on: 6/3/19   *
+* 8:00 PM                                                            *
+* Up for: 0 days, 0 hours, 2 mins, 32.559 sec                        *
+**********************************************************************
+2019-03-06 20:00:47,275 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'training-american-ws'                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 20:00:47,291 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2019-03-06 20:00:47,291 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2019-03-06 20:00:47,322 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2019-03-06 20:00:47,322 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.7)
+2019-03-06 20:00:47,322 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@2d703ea0: startup date [Wed Mar 06 20:00:47 GMT 2019]; root of context hierarchy
+2019-03-06 20:00:47,775 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-06 20:00:47,857 [Mule.app.deployer.monitor.1.thread.1] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 20:00:47,857 [Mule.app.deployer.monitor.1.thread.1] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 20:00:47,857 [Mule.app.deployer.monitor.1.thread.1] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 20:00:47,857 [Mule.app.deployer.monitor.1.thread.1] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 20:00:48,044 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising connector: Active_MQ
+2019-03-06 20:00:48,138 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2019-03-06 20:00:48,138 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: training-american-wsFlow
+2019-03-06 20:00:48,138 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@7488253b
+2019-03-06 20:00:48,154 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: training-american-wsFlow.stage1
+2019-03-06 20:00:48,154 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: training-american-wsFlow1
+2019-03-06 20:00:48,154 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@3a6301cb
+2019-03-06 20:00:48,185 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: training-american-wsFlow1.stage1
+2019-03-06 20:00:48,185 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: training-american-wsFlow2
+2019-03-06 20:00:48,185 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@57dfd8a
+2019-03-06 20:00:48,200 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: training-american-wsFlow2.stage1
+2019-03-06 20:00:48,200 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-tx-log\tx1.log and C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-tx-log\tx2.log
+2019-03-06 20:00:48,200 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-xa-tx-log\tx1.log and C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-xa-tx-log\tx2.log
+2019-03-06 20:00:48,263 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Mule Practise\Pradyu\.mule\apps\training-american-ws\training-american-ws.xml'}]"
+2019-03-06 20:00:48,263 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Mule Practise\Pradyu\.mule\apps\training-american-ws\training-american-ws.xml'}]"
+2019-03-06 20:00:48,263 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'training-american-ws'                      +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 20:00:48,263 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2019-03-06 20:00:48,263 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2019-03-06 20:00:48,294 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8081
+2019-03-06 20:00:48,685 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.transport.jms.CustomCachingConnectionFactory - Established shared JMS Connection: ActiveMQConnection {id=ID:Padmaja-53942-1551902448544-1:1,clientId=null,started=false}
+2019-03-06 20:00:48,716 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.transport.jms.activemq.ActiveMQJmsConnector - Connected: ActiveMQJmsConnector
+{
+  name=Active_MQ
+  lifecycle=initialise
+  this=74a750a4
+  numberOfConcurrentTransactedReceivers=4
+  createMultipleTransactedReceivers=true
+  connected=true
+  supportedProtocols=[jms]
+  serviceOverrides=<none>
+}
+
+2019-03-06 20:00:48,716 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.transport.jms.activemq.ActiveMQJmsConnector - Starting: ActiveMQJmsConnector
+{
+  name=Active_MQ
+  lifecycle=initialise
+  this=74a750a4
+  numberOfConcurrentTransactedReceivers=4
+  createMultipleTransactedReceivers=true
+  connected=true
+  supportedProtocols=[jms]
+  serviceOverrides=<none>
+}
+
+2019-03-06 20:00:48,716 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting connector: Active_MQ
+2019-03-06 20:00:48,732 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 20:00:48,732 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2019-03-06 20:00:48,732 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: training-american-wsFlow
+2019-03-06 20:00:48,732 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: training-american-wsFlow.stage1
+2019-03-06 20:00:48,732 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: training-american-wsFlow1
+2019-03-06 20:00:48,732 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: training-american-wsFlow1.stage1
+2019-03-06 20:00:48,732 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: training-american-wsFlow2
+2019-03-06 20:00:48,747 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: training-american-wsFlow2.stage1
+2019-03-06 20:00:48,747 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.transport.jms.activemq.ActiveMQJmsConnector - Registering listener: training-american-wsFlow2 on endpointUri: jms://topic:testTopic
+2019-03-06 20:00:48,747 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.transport.jms.MultiConsumerJmsMessageReceiver - Destination jms://topic:testTopic is a topic, but 4 receivers have been requested. Will configure only 1.
+2019-03-06 20:00:48,747 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.transport.service.DefaultTransportServiceDescriptor - Loading default inbound transformer: org.mule.transport.jms.transformers.JMSMessageToObject
+2019-03-06 20:00:48,747 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.transport.service.DefaultTransportServiceDescriptor - Loading default response transformer: org.mule.transport.jms.transformers.ObjectToJMSMessage
+2019-03-06 20:00:48,747 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising: 'null'. Object is: MultiConsumerJmsMessageReceiver
+2019-03-06 20:00:48,747 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.transport.jms.MultiConsumerJmsMessageReceiver - Connecting clusterizable message receiver
+2019-03-06 20:00:48,794 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.transport.jms.MultiConsumerJmsMessageReceiver - Endpoint jms://topic:testTopic has been successfully reconnected.
+2019-03-06 20:00:48,794 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting: 'null'. Object is: MultiConsumerJmsMessageReceiver
+2019-03-06 20:00:48,794 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.transport.jms.MultiConsumerJmsMessageReceiver - Starting clusterizable message receiver
+2019-03-06 20:00:48,812 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2019-03-06 20:00:48,827 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.management.agent.AbstractJmxAgent - Attempting to register service with name: Mule.training-american-ws:type=Endpoint,service="training-american-wsFlow2",connector=Active_MQ,name="endpoint.jms.testTopic"
+2019-03-06 20:00:48,827 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.management.agent.AbstractJmxAgent - Registered Endpoint Service with name: Mule.training-american-ws:type=Endpoint,service="training-american-wsFlow2",connector=Active_MQ,name="endpoint.jms.testTopic"
+2019-03-06 20:00:48,827 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.management.agent.AbstractJmxAgent - Registered Connector Service with name Mule.training-american-ws:type=Connector,name="Active.MQ"
+2019-03-06 20:00:48,827 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: training-american-ws                                  *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   JMX Agent                                                        *
+*   DevKit Extension Information                                     *
+*   Batch module default engine                                      *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2019-03-06 20:00:58,724 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'training-american-ws'                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 20:00:59,099 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2019-03-06 20:00:59,215 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2019-03-06 20:00:59,356 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2019-03-06 20:00:59,356 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.7)
+2019-03-06 20:00:59,419 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@340b9973: startup date [Wed Mar 06 20:00:59 GMT 2019]; root of context hierarchy
+2019-03-06 20:01:01,293 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-06 20:01:01,670 [main] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 20:01:01,670 [main] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 20:01:01,670 [main] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 20:01:01,670 [main] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 20:01:02,672 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2019-03-06 20:01:03,486 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising connector: Active_MQ
+2019-03-06 20:01:03,705 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2019-03-06 20:01:03,717 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: training-american-wsFlow
+2019-03-06 20:01:03,717 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@e26af6
+2019-03-06 20:01:03,748 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: training-american-wsFlow.stage1
+2019-03-06 20:01:03,764 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: training-american-wsFlow1
+2019-03-06 20:01:03,764 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@4f0cab0a
+2019-03-06 20:01:03,764 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: training-american-wsFlow1.stage1
+2019-03-06 20:01:03,952 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: training-american-wsFlow2
+2019-03-06 20:01:03,952 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@1dd74143
+2019-03-06 20:01:03,983 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: training-american-wsFlow2.stage1
+2019-03-06 20:01:03,998 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-tx-log\tx1.log and C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-tx-log\tx2.log
+2019-03-06 20:01:04,014 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-xa-tx-log\tx1.log and C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-xa-tx-log\tx2.log
+2019-03-06 20:01:04,139 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Mule Practise\Pradyu\.mule\apps\training-american-ws\training-american-ws.xml'}]"
+2019-03-06 20:01:04,139 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Mule Practise\Pradyu\.mule\apps\training-american-ws\training-american-ws.xml'}]"
+2019-03-06 20:01:04,139 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'training-american-ws'                      +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 20:01:04,139 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2019-03-06 20:01:04,155 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2019-03-06 20:01:04,217 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8081
+2019-03-06 20:01:04,907 [main] INFO  org.mule.transport.jms.CustomCachingConnectionFactory - Established shared JMS Connection: ActiveMQConnection {id=ID:Padmaja-53954-1551902464782-1:1,clientId=null,started=false}
+2019-03-06 20:01:04,961 [main] INFO  org.mule.transport.jms.activemq.ActiveMQJmsConnector - Connected: ActiveMQJmsConnector
+{
+  name=Active_MQ
+  lifecycle=initialise
+  this=1a1f5f71
+  numberOfConcurrentTransactedReceivers=4
+  createMultipleTransactedReceivers=true
+  connected=true
+  supportedProtocols=[jms]
+  serviceOverrides=<none>
+}
+
+2019-03-06 20:01:04,961 [main] INFO  org.mule.transport.jms.activemq.ActiveMQJmsConnector - Starting: ActiveMQJmsConnector
+{
+  name=Active_MQ
+  lifecycle=initialise
+  this=1a1f5f71
+  numberOfConcurrentTransactedReceivers=4
+  createMultipleTransactedReceivers=true
+  connected=true
+  supportedProtocols=[jms]
+  serviceOverrides=<none>
+}
+
+2019-03-06 20:01:04,961 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting connector: Active_MQ
+2019-03-06 20:01:04,961 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 20:01:04,961 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2019-03-06 20:01:04,961 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: training-american-wsFlow
+2019-03-06 20:01:04,961 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: training-american-wsFlow.stage1
+2019-03-06 20:01:04,976 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: training-american-wsFlow1
+2019-03-06 20:01:04,976 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: training-american-wsFlow1.stage1
+2019-03-06 20:01:04,992 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: training-american-wsFlow2
+2019-03-06 20:01:04,992 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: training-american-wsFlow2.stage1
+2019-03-06 20:01:04,992 [main] INFO  org.mule.transport.jms.activemq.ActiveMQJmsConnector - Registering listener: training-american-wsFlow2 on endpointUri: jms://topic:testTopic
+2019-03-06 20:01:05,008 [main] INFO  org.mule.transport.jms.MultiConsumerJmsMessageReceiver - Destination jms://topic:testTopic is a topic, but 4 receivers have been requested. Will configure only 1.
+2019-03-06 20:01:05,008 [main] INFO  org.mule.transport.service.DefaultTransportServiceDescriptor - Loading default inbound transformer: org.mule.transport.jms.transformers.JMSMessageToObject
+2019-03-06 20:01:05,008 [main] INFO  org.mule.transport.service.DefaultTransportServiceDescriptor - Loading default response transformer: org.mule.transport.jms.transformers.ObjectToJMSMessage
+2019-03-06 20:01:05,008 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising: 'null'. Object is: MultiConsumerJmsMessageReceiver
+2019-03-06 20:01:05,008 [main] INFO  org.mule.transport.jms.MultiConsumerJmsMessageReceiver - Connecting clusterizable message receiver
+2019-03-06 20:01:05,117 [main] INFO  org.mule.transport.jms.MultiConsumerJmsMessageReceiver - Endpoint jms://topic:testTopic has been successfully reconnected.
+2019-03-06 20:01:05,117 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting: 'null'. Object is: MultiConsumerJmsMessageReceiver
+2019-03-06 20:01:05,117 [main] INFO  org.mule.transport.jms.MultiConsumerJmsMessageReceiver - Starting clusterizable message receiver
+2019-03-06 20:01:05,180 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2019-03-06 20:01:05,226 [main] INFO  org.mule.module.management.agent.AbstractJmxAgent - Attempting to register service with name: Mule.training-american-ws:type=Endpoint,service="training-american-wsFlow2",connector=Active_MQ,name="endpoint.jms.testTopic"
+2019-03-06 20:01:05,226 [main] INFO  org.mule.module.management.agent.AbstractJmxAgent - Registered Endpoint Service with name: Mule.training-american-ws:type=Endpoint,service="training-american-wsFlow2",connector=Active_MQ,name="endpoint.jms.testTopic"
+2019-03-06 20:01:05,226 [main] INFO  org.mule.module.management.agent.AbstractJmxAgent - Registered Connector Service with name Mule.training-american-ws:type=Connector,name="Active.MQ"
+2019-03-06 20:01:05,226 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: training-american-ws                                  *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   JMX Agent                                                        *
+*   DevKit Extension Information                                     *
+*   Batch module default engine                                      *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2019-03-06 20:01:12,264 [[training-american-ws].HTTP_Listener_Configuration.worker.01] INFO  org.mule.api.processor.LoggerMessageProcessor - [{"AGE":"10","ENAME":"aaa","ID":"1"},{"AGE":"20","ENAME":"bbb","ID":"2"},{"AGE":"30","ENAME":"ccc","ID":"3"},{"AGE":"40","ENAME":"ddd","ID":"4"},{"AGE":"45","ENAME":"eee","ID":"5"},{"AGE":"30","ENAME":"United Kingdom","ID":"8119"},{"AGE":"25","ENAME":"Australia","ID":"8120"},{"AGE":"30","ENAME":"Austria","ID":"8121"},{"AGE":"27","ENAME":"Germany","ID":"8122"},{"AGE":"25","ENAME":"New York City","ID":"8217"},{"AGE":"28","ENAME":"United Kingdom","ID":"8218"},{"AGE":"30","ENAME":"United Kingdom","ID":"8219"},{"AGE":"25","ENAME":"Australia","ID":"8220"},{"AGE":"30","ENAME":"Austria","ID":"8221"},{"AGE":"27","ENAME":"Germany","ID":"8222"},{"AGE":null,"ENAME":null,"ID":null},{"AGE":null,"ENAME":null,"ID":null},{"AGE":null,"ENAME":null,"ID":null},{"AGE":null,"ENAME":null,"ID":null},{"AGE":null,"ENAME":null,"ID":null},{"AGE":null,"ENAME":null,"ID":null},{"AGE":"25","ENAME":"New York City","ID":"8817"},{"AGE":"28","ENAME":"United Kingdom","ID":"8818"},{"AGE":"30","ENAME":"United Kingdom","ID":"8819"},{"AGE":"25","ENAME":"Australia","ID":"8820"},{"AGE":"30","ENAME":"Austria","ID":"8821"},{"AGE":"27","ENAME":"Germany","ID":"8822"},{"AGE":"25","ENAME":"New York City","ID":"8917"},{"AGE":"28","ENAME":"United Kingdom","ID":"8918"},{"AGE":"30","ENAME":"United Kingdom","ID":"8919"},{"AGE":"25","ENAME":"Australia","ID":"8920"},{"AGE":"30","ENAME":"Austria","ID":"8921"},{"AGE":"27","ENAME":"Germany","ID":"8922"},{"AGE":"25","ENAME":"New York City","ID":"8117"},{"AGE":"28","ENAME":"United Kingdom","ID":"8118"},{"AGE":"30","ENAME":"United Kingdom","ID":"8119"},{"AGE":"25","ENAME":"Australia","ID":"8120"},{"AGE":"30","ENAME":"Austria","ID":"8121"},{"AGE":"27","ENAME":"Germany","ID":"8122"},{"AGE":"25","ENAME":"New York City","ID":"8117"},{"AGE":"28","ENAME":"United Kingdom","ID":"8118"}]
+2019-03-06 20:01:12,308 [[training-american-ws].HTTP_Listener_Configuration.worker.01] INFO  org.mule.transport.service.DefaultTransportServiceDescriptor - Loading default outbound transformer: org.mule.transport.jms.transformers.ObjectToJMSMessage
+2019-03-06 20:01:12,308 [[training-american-ws].HTTP_Listener_Configuration.worker.01] INFO  org.mule.transport.service.DefaultTransportServiceDescriptor - Loading default response transformer: org.mule.transport.jms.transformers.ObjectToJMSMessage
+2019-03-06 20:01:12,308 [[training-american-ws].HTTP_Listener_Configuration.worker.01] WARN  com.mulesoft.mule.transport.jms.EeJmsMessageDispatcher - Starting patched JmsMessageReceiver
+2019-03-06 20:01:12,308 [[training-american-ws].HTTP_Listener_Configuration.worker.01] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising: 'Active_MQ.dispatcher.1872982010'. Object is: EeJmsMessageDispatcher
+2019-03-06 20:01:12,308 [[training-american-ws].HTTP_Listener_Configuration.worker.01] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting: 'Active_MQ.dispatcher.1872982010'. Object is: EeJmsMessageDispatcher
+2019-03-06 20:01:12,495 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"10","ENAME":"aaa","ID":"1"}
+2019-03-06 20:01:12,495 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"20","ENAME":"bbb","ID":"2"}
+2019-03-06 20:01:12,495 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"30","ENAME":"ccc","ID":"3"}
+2019-03-06 20:01:12,495 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"40","ENAME":"ddd","ID":"4"}
+2019-03-06 20:01:12,495 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"45","ENAME":"eee","ID":"5"}
+2019-03-06 20:01:12,495 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"30","ENAME":"United Kingdom","ID":"8119"}
+2019-03-06 20:01:12,495 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"25","ENAME":"Australia","ID":"8120"}
+2019-03-06 20:01:12,495 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"30","ENAME":"Austria","ID":"8121"}
+2019-03-06 20:01:12,495 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"27","ENAME":"Germany","ID":"8122"}
+2019-03-06 20:01:12,511 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"25","ENAME":"New York City","ID":"8217"}
+2019-03-06 20:01:12,511 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"28","ENAME":"United Kingdom","ID":"8218"}
+2019-03-06 20:01:12,511 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"30","ENAME":"United Kingdom","ID":"8219"}
+2019-03-06 20:01:12,511 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"25","ENAME":"Australia","ID":"8220"}
+2019-03-06 20:01:12,511 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"30","ENAME":"Austria","ID":"8221"}
+2019-03-06 20:01:12,511 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"27","ENAME":"Germany","ID":"8222"}
+2019-03-06 20:01:12,511 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":null,"ENAME":null,"ID":null}
+2019-03-06 20:01:12,511 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":null,"ENAME":null,"ID":null}
+2019-03-06 20:01:12,511 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":null,"ENAME":null,"ID":null}
+2019-03-06 20:01:12,511 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":null,"ENAME":null,"ID":null}
+2019-03-06 20:01:12,511 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":null,"ENAME":null,"ID":null}
+2019-03-06 20:01:12,511 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":null,"ENAME":null,"ID":null}
+2019-03-06 20:01:12,542 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"25","ENAME":"New York City","ID":"8817"}
+2019-03-06 20:01:12,542 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"28","ENAME":"United Kingdom","ID":"8818"}
+2019-03-06 20:01:12,542 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"30","ENAME":"United Kingdom","ID":"8819"}
+2019-03-06 20:01:12,558 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"25","ENAME":"Australia","ID":"8820"}
+2019-03-06 20:01:12,558 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"30","ENAME":"Austria","ID":"8821"}
+2019-03-06 20:01:12,558 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"27","ENAME":"Germany","ID":"8822"}
+2019-03-06 20:01:12,558 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"25","ENAME":"New York City","ID":"8917"}
+2019-03-06 20:01:12,558 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"28","ENAME":"United Kingdom","ID":"8918"}
+2019-03-06 20:01:12,558 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"30","ENAME":"United Kingdom","ID":"8919"}
+2019-03-06 20:01:12,573 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"25","ENAME":"Australia","ID":"8920"}
+2019-03-06 20:01:12,573 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"30","ENAME":"Austria","ID":"8921"}
+2019-03-06 20:01:12,573 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"27","ENAME":"Germany","ID":"8922"}
+2019-03-06 20:01:12,573 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"25","ENAME":"New York City","ID":"8117"}
+2019-03-06 20:01:12,573 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"28","ENAME":"United Kingdom","ID":"8118"}
+2019-03-06 20:01:12,573 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"30","ENAME":"United Kingdom","ID":"8119"}
+2019-03-06 20:01:12,573 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"25","ENAME":"Australia","ID":"8120"}
+2019-03-06 20:01:12,573 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"30","ENAME":"Austria","ID":"8121"}
+2019-03-06 20:01:12,573 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"27","ENAME":"Germany","ID":"8122"}
+2019-03-06 20:01:12,589 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"25","ENAME":"New York City","ID":"8117"}
+2019-03-06 20:01:12,589 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"28","ENAME":"United Kingdom","ID":"8118"}
+2019-03-06 20:10:01,535 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Stopping app 'training-american-ws'                      +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 20:10:01,538 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Stopping flow: training-american-wsFlow
+2019-03-06 20:10:01,538 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Stopping service: training-american-wsFlow.stage1
+2019-03-06 20:10:01,647 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Stopping flow: training-american-wsFlow1
+2019-03-06 20:10:01,647 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Stopping service: training-american-wsFlow1.stage1
+2019-03-06 20:10:01,848 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Stopping flow: training-american-wsFlow2
+2019-03-06 20:10:01,849 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.transport.jms.activemq.ActiveMQJmsConnector - Removing listener on endpointUri: jms://topic:testTopic
+2019-03-06 20:10:01,850 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Stopping: 'null'. Object is: MultiConsumerJmsMessageReceiver
+2019-03-06 20:10:01,855 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing: 'null'. Object is: MultiConsumerJmsMessageReceiver
+2019-03-06 20:10:01,855 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Stopping service: training-american-wsFlow2.stage1
+2019-03-06 20:10:02,056 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Stopping model: _muleSystemModel
+2019-03-06 20:10:02,056 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Stopping connector: Active_MQ
+2019-03-06 20:10:02,056 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Stopping: 'Active_MQ.dispatcher.1872982010'. Object is: EeJmsMessageDispatcher
+2019-03-06 20:10:02,056 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing: 'Active_MQ.dispatcher.1872982010'. Object is: EeJmsMessageDispatcher
+2019-03-06 20:10:02,071 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Stopped listener on http://0.0.0.0:8081
+2019-03-06 20:10:02,071 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Stopping ResourceManager
+2019-03-06 20:10:02,071 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Stopped ResourceManager
+2019-03-06 20:10:02,087 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Disposing app 'training-american-ws'                     +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 20:10:02,087 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing RegistryBroker
+2019-03-06 20:10:02,087 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Disposing flow: training-american-wsFlow
+2019-03-06 20:10:02,087 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Disposing service: training-american-wsFlow.stage1
+2019-03-06 20:10:02,087 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Disposing flow: training-american-wsFlow1
+2019-03-06 20:10:02,087 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Disposing service: training-american-wsFlow1.stage1
+2019-03-06 20:10:02,087 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Disposing flow: training-american-wsFlow2
+2019-03-06 20:10:02,087 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Disposing service: training-american-wsFlow2.stage1
+2019-03-06 20:10:02,087 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing model: _muleSystemModel
+2019-03-06 20:10:02,087 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.transport.jms.activemq.ActiveMQJmsConnector - Disconnected: ActiveMQJmsConnector
+{
+  name=Active_MQ
+  lifecycle=stop
+  this=1a1f5f71
+  numberOfConcurrentTransactedReceivers=4
+  createMultipleTransactedReceivers=true
+  connected=true
+  supportedProtocols=[jms]
+  serviceOverrides=<none>
+}
+
+2019-03-06 20:10:02,103 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing connector: Active_MQ
+2019-03-06 20:10:02,228 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.MuleArtifactContext - Closing org.mule.config.spring.MuleArtifactContext@340b9973: startup date [Wed Mar 06 20:00:59 GMT 2019]; root of context hierarchy
+2019-03-06 20:10:02,306 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application "training-american-ws" shut down normally on: 6/3/19   *
+* 8:10 PM                                                            *
+* Up for: 0 days, 0 hours, 8 mins, 58.167 sec                        *
+**********************************************************************
+2019-03-06 20:10:02,415 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'training-american-ws'                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 20:10:02,415 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2019-03-06 20:10:02,431 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2019-03-06 20:10:02,477 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2019-03-06 20:10:02,477 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.7)
+2019-03-06 20:10:02,493 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@7595e998: startup date [Wed Mar 06 20:10:02 GMT 2019]; root of context hierarchy
+2019-03-06 20:10:03,024 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-06 20:10:03,100 [Mule.app.deployer.monitor.1.thread.1] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 20:10:03,100 [Mule.app.deployer.monitor.1.thread.1] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 20:10:03,100 [Mule.app.deployer.monitor.1.thread.1] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 20:10:03,115 [Mule.app.deployer.monitor.1.thread.1] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 20:10:03,287 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising connector: Active_MQ
+2019-03-06 20:10:03,318 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2019-03-06 20:10:03,334 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: training-american-wsFlow
+2019-03-06 20:10:03,334 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@67374b1b
+2019-03-06 20:10:03,334 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: training-american-wsFlow.stage1
+2019-03-06 20:10:03,334 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: training-american-wsFlow1
+2019-03-06 20:10:03,334 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@43537528
+2019-03-06 20:10:03,350 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: training-american-wsFlow1.stage1
+2019-03-06 20:10:03,350 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: training-american-wsFlow2
+2019-03-06 20:10:03,350 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@33443d5c
+2019-03-06 20:10:03,350 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: training-american-wsFlow2.stage1
+2019-03-06 20:10:03,350 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-tx-log\tx1.log and C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-tx-log\tx2.log
+2019-03-06 20:10:03,365 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-xa-tx-log\tx1.log and C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-xa-tx-log\tx2.log
+2019-03-06 20:10:03,428 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Mule Practise\Pradyu\.mule\apps\training-american-ws\training-american-ws.xml'}]"
+2019-03-06 20:10:03,428 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Mule Practise\Pradyu\.mule\apps\training-american-ws\training-american-ws.xml'}]"
+2019-03-06 20:10:03,428 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'training-american-ws'                      +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 20:10:03,428 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2019-03-06 20:10:03,428 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2019-03-06 20:10:03,459 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8081
+2019-03-06 20:10:03,791 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.transport.jms.CustomCachingConnectionFactory - Established shared JMS Connection: ActiveMQConnection {id=ID:Padmaja-54002-1551903003666-1:1,clientId=null,started=false}
+2019-03-06 20:10:03,838 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.transport.jms.activemq.ActiveMQJmsConnector - Connected: ActiveMQJmsConnector
+{
+  name=Active_MQ
+  lifecycle=initialise
+  this=5370c8d
+  numberOfConcurrentTransactedReceivers=4
+  createMultipleTransactedReceivers=true
+  connected=true
+  supportedProtocols=[jms]
+  serviceOverrides=<none>
+}
+
+2019-03-06 20:10:03,838 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.transport.jms.activemq.ActiveMQJmsConnector - Starting: ActiveMQJmsConnector
+{
+  name=Active_MQ
+  lifecycle=initialise
+  this=5370c8d
+  numberOfConcurrentTransactedReceivers=4
+  createMultipleTransactedReceivers=true
+  connected=true
+  supportedProtocols=[jms]
+  serviceOverrides=<none>
+}
+
+2019-03-06 20:10:03,838 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting connector: Active_MQ
+2019-03-06 20:10:03,838 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 20:10:03,838 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2019-03-06 20:10:03,838 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: training-american-wsFlow
+2019-03-06 20:10:03,838 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: training-american-wsFlow.stage1
+2019-03-06 20:10:03,853 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: training-american-wsFlow1
+2019-03-06 20:10:03,853 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: training-american-wsFlow1.stage1
+2019-03-06 20:10:03,853 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: training-american-wsFlow2
+2019-03-06 20:10:03,853 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: training-american-wsFlow2.stage1
+2019-03-06 20:10:03,853 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.transport.jms.activemq.ActiveMQJmsConnector - Registering listener: training-american-wsFlow2 on endpointUri: jms://topic:testTopic
+2019-03-06 20:10:03,853 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.transport.jms.MultiConsumerJmsMessageReceiver - Destination jms://topic:testTopic is a topic, but 4 receivers have been requested. Will configure only 1.
+2019-03-06 20:10:03,853 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.transport.service.DefaultTransportServiceDescriptor - Loading default inbound transformer: org.mule.transport.jms.transformers.JMSMessageToObject
+2019-03-06 20:10:03,853 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.transport.service.DefaultTransportServiceDescriptor - Loading default response transformer: org.mule.transport.jms.transformers.ObjectToJMSMessage
+2019-03-06 20:10:03,853 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising: 'null'. Object is: MultiConsumerJmsMessageReceiver
+2019-03-06 20:10:03,869 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.transport.jms.MultiConsumerJmsMessageReceiver - Connecting clusterizable message receiver
+2019-03-06 20:10:03,916 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.transport.jms.MultiConsumerJmsMessageReceiver - Endpoint jms://topic:testTopic has been successfully reconnected.
+2019-03-06 20:10:03,931 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting: 'null'. Object is: MultiConsumerJmsMessageReceiver
+2019-03-06 20:10:03,931 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.transport.jms.MultiConsumerJmsMessageReceiver - Starting clusterizable message receiver
+2019-03-06 20:10:03,947 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2019-03-06 20:10:03,947 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.management.agent.AbstractJmxAgent - Attempting to register service with name: Mule.training-american-ws:type=Endpoint,service="training-american-wsFlow2",connector=Active_MQ,name="endpoint.jms.testTopic"
+2019-03-06 20:10:03,947 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.management.agent.AbstractJmxAgent - Registered Endpoint Service with name: Mule.training-american-ws:type=Endpoint,service="training-american-wsFlow2",connector=Active_MQ,name="endpoint.jms.testTopic"
+2019-03-06 20:10:03,947 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.management.agent.AbstractJmxAgent - Registered Connector Service with name Mule.training-american-ws:type=Connector,name="Active.MQ"
+2019-03-06 20:10:03,947 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: training-american-ws                                  *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   JMX Agent                                                        *
+*   DevKit Extension Information                                     *
+*   Batch module default engine                                      *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2019-03-06 20:10:38,967 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'training-american-ws'                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 20:10:39,347 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2019-03-06 20:10:39,476 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2019-03-06 20:10:39,637 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2019-03-06 20:10:39,637 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.7)
+2019-03-06 20:10:39,716 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@340b9973: startup date [Wed Mar 06 20:10:39 GMT 2019]; root of context hierarchy
+2019-03-06 20:10:41,767 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-06 20:10:42,142 [main] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 20:10:42,142 [main] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 20:10:42,142 [main] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 20:10:42,142 [main] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2019-03-06 20:10:43,249 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2019-03-06 20:10:44,062 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising connector: Active_MQ
+2019-03-06 20:10:44,265 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2019-03-06 20:10:44,271 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: training-american-wsFlow
+2019-03-06 20:10:44,271 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@1d12e953
+2019-03-06 20:10:44,302 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: training-american-wsFlow.stage1
+2019-03-06 20:10:44,318 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: training-american-wsFlow1
+2019-03-06 20:10:44,318 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@1df1ced0
+2019-03-06 20:10:44,318 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: training-american-wsFlow1.stage1
+2019-03-06 20:10:44,499 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: training-american-wsFlow2
+2019-03-06 20:10:44,499 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@2152ab30
+2019-03-06 20:10:44,530 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: training-american-wsFlow2.stage1
+2019-03-06 20:10:44,545 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-tx-log\tx1.log and C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-tx-log\tx2.log
+2019-03-06 20:10:44,561 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-xa-tx-log\tx1.log and C:\Mule Practise\Pradyu\.mule\.\.mule\training-american-ws\queue-xa-tx-log\tx2.log
+2019-03-06 20:10:44,744 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Mule Practise\Pradyu\.mule\apps\training-american-ws\training-american-ws.xml'}]"
+2019-03-06 20:10:44,746 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Mule Practise\Pradyu\.mule\apps\training-american-ws\training-american-ws.xml'}]"
+2019-03-06 20:10:44,747 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'training-american-ws'                      +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 20:10:44,754 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2019-03-06 20:10:44,755 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2019-03-06 20:10:44,845 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8081
+2019-03-06 20:10:45,624 [main] INFO  org.mule.transport.jms.CustomCachingConnectionFactory - Established shared JMS Connection: ActiveMQConnection {id=ID:Padmaja-54016-1551903045484-1:1,clientId=null,started=false}
+2019-03-06 20:10:45,674 [main] INFO  org.mule.transport.jms.activemq.ActiveMQJmsConnector - Connected: ActiveMQJmsConnector
+{
+  name=Active_MQ
+  lifecycle=initialise
+  this=3b920bdc
+  numberOfConcurrentTransactedReceivers=4
+  createMultipleTransactedReceivers=true
+  connected=true
+  supportedProtocols=[jms]
+  serviceOverrides=<none>
+}
+
+2019-03-06 20:10:45,674 [main] INFO  org.mule.transport.jms.activemq.ActiveMQJmsConnector - Starting: ActiveMQJmsConnector
+{
+  name=Active_MQ
+  lifecycle=initialise
+  this=3b920bdc
+  numberOfConcurrentTransactedReceivers=4
+  createMultipleTransactedReceivers=true
+  connected=true
+  supportedProtocols=[jms]
+  serviceOverrides=<none>
+}
+
+2019-03-06 20:10:45,674 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting connector: Active_MQ
+2019-03-06 20:10:45,674 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 20:10:45,674 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2019-03-06 20:10:45,674 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: training-american-wsFlow
+2019-03-06 20:10:45,689 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: training-american-wsFlow.stage1
+2019-03-06 20:10:45,689 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: training-american-wsFlow1
+2019-03-06 20:10:45,689 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: training-american-wsFlow1.stage1
+2019-03-06 20:10:45,689 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: training-american-wsFlow2
+2019-03-06 20:10:45,689 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: training-american-wsFlow2.stage1
+2019-03-06 20:10:45,705 [main] INFO  org.mule.transport.jms.activemq.ActiveMQJmsConnector - Registering listener: training-american-wsFlow2 on endpointUri: jms://topic:testTopic
+2019-03-06 20:10:45,720 [main] INFO  org.mule.transport.jms.MultiConsumerJmsMessageReceiver - Destination jms://topic:testTopic is a topic, but 4 receivers have been requested. Will configure only 1.
+2019-03-06 20:10:45,720 [main] INFO  org.mule.transport.service.DefaultTransportServiceDescriptor - Loading default inbound transformer: org.mule.transport.jms.transformers.JMSMessageToObject
+2019-03-06 20:10:45,720 [main] INFO  org.mule.transport.service.DefaultTransportServiceDescriptor - Loading default response transformer: org.mule.transport.jms.transformers.ObjectToJMSMessage
+2019-03-06 20:10:45,720 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising: 'null'. Object is: MultiConsumerJmsMessageReceiver
+2019-03-06 20:10:45,720 [main] INFO  org.mule.transport.jms.MultiConsumerJmsMessageReceiver - Connecting clusterizable message receiver
+2019-03-06 20:10:45,814 [main] INFO  org.mule.transport.jms.MultiConsumerJmsMessageReceiver - Endpoint jms://topic:testTopic has been successfully reconnected.
+2019-03-06 20:10:45,814 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting: 'null'. Object is: MultiConsumerJmsMessageReceiver
+2019-03-06 20:10:45,814 [main] INFO  org.mule.transport.jms.MultiConsumerJmsMessageReceiver - Starting clusterizable message receiver
+2019-03-06 20:10:45,861 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2019-03-06 20:10:45,908 [main] INFO  org.mule.module.management.agent.AbstractJmxAgent - Attempting to register service with name: Mule.training-american-ws:type=Endpoint,service="training-american-wsFlow2",connector=Active_MQ,name="endpoint.jms.testTopic"
+2019-03-06 20:10:45,908 [main] INFO  org.mule.module.management.agent.AbstractJmxAgent - Registered Endpoint Service with name: Mule.training-american-ws:type=Endpoint,service="training-american-wsFlow2",connector=Active_MQ,name="endpoint.jms.testTopic"
+2019-03-06 20:10:45,908 [main] INFO  org.mule.module.management.agent.AbstractJmxAgent - Registered Connector Service with name Mule.training-american-ws:type=Connector,name="Active.MQ"
+2019-03-06 20:10:45,908 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: training-american-ws                                  *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   JMX Agent                                                        *
+*   DevKit Extension Information                                     *
+*   Batch module default engine                                      *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2019-03-06 20:10:51,618 [[training-american-ws].HTTP_Listener_Configuration.worker.01] INFO  org.mule.api.processor.LoggerMessageProcessor - []
+2019-03-06 20:10:51,660 [[training-american-ws].HTTP_Listener_Configuration.worker.01] INFO  org.mule.transport.service.DefaultTransportServiceDescriptor - Loading default outbound transformer: org.mule.transport.jms.transformers.ObjectToJMSMessage
+2019-03-06 20:10:51,660 [[training-american-ws].HTTP_Listener_Configuration.worker.01] INFO  org.mule.transport.service.DefaultTransportServiceDescriptor - Loading default response transformer: org.mule.transport.jms.transformers.ObjectToJMSMessage
+2019-03-06 20:10:51,660 [[training-american-ws].HTTP_Listener_Configuration.worker.01] WARN  com.mulesoft.mule.transport.jms.EeJmsMessageDispatcher - Starting patched JmsMessageReceiver
+2019-03-06 20:10:51,660 [[training-american-ws].HTTP_Listener_Configuration.worker.01] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising: 'Active_MQ.dispatcher.493805468'. Object is: EeJmsMessageDispatcher
+2019-03-06 20:10:51,660 [[training-american-ws].HTTP_Listener_Configuration.worker.01] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting: 'Active_MQ.dispatcher.493805468'. Object is: EeJmsMessageDispatcher
+2019-03-06 20:10:51,785 [[training-american-ws].training-american-wsFlow2.stage1.02] WARN  org.mule.routing.CollectionSplitter - Splitter returned no results. If this is not expected, please check your split expression
+2019-03-06 20:11:23,232 [[training-american-ws].HTTP_Listener_Configuration.worker.01] INFO  org.mule.api.processor.LoggerMessageProcessor - [{"AGE":"25","ENAME":"Australia","ID":"8120"},{"AGE":"25","ENAME":"New York City","ID":"8217"},{"AGE":"25","ENAME":"Australia","ID":"8220"},{"AGE":"25","ENAME":"New York City","ID":"8817"},{"AGE":"25","ENAME":"Australia","ID":"8820"},{"AGE":"25","ENAME":"New York City","ID":"8917"},{"AGE":"25","ENAME":"Australia","ID":"8920"},{"AGE":"25","ENAME":"New York City","ID":"8117"},{"AGE":"25","ENAME":"Australia","ID":"8120"},{"AGE":"25","ENAME":"New York City","ID":"8117"}]
+2019-03-06 20:11:23,245 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"25","ENAME":"Australia","ID":"8120"}
+2019-03-06 20:11:23,261 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"25","ENAME":"New York City","ID":"8217"}
+2019-03-06 20:11:23,261 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"25","ENAME":"Australia","ID":"8220"}
+2019-03-06 20:11:23,261 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"25","ENAME":"New York City","ID":"8817"}
+2019-03-06 20:11:23,261 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"25","ENAME":"Australia","ID":"8820"}
+2019-03-06 20:11:23,261 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"25","ENAME":"New York City","ID":"8917"}
+2019-03-06 20:11:23,261 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"25","ENAME":"Australia","ID":"8920"}
+2019-03-06 20:11:23,261 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"25","ENAME":"New York City","ID":"8117"}
+2019-03-06 20:11:23,279 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"25","ENAME":"Australia","ID":"8120"}
+2019-03-06 20:11:23,280 [[training-american-ws].training-american-wsFlow2.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - {"AGE":"25","ENAME":"New York City","ID":"8117"}

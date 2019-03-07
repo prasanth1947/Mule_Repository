@@ -1,0 +1,130 @@
+2019-03-06 20:15:31,076 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'ramlapi'                               +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 20:15:31,451 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2019-03-06 20:15:31,621 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2019-03-06 20:15:31,761 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2019-03-06 20:15:31,761 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.7)
+2019-03-06 20:15:31,860 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@5911e990: startup date [Wed Mar 06 20:15:31 GMT 2019]; root of context hierarchy
+2019-03-06 20:15:34,040 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-06 20:15:35,870 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2019-03-06 20:15:37,074 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2019-03-06 20:15:37,082 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: flights-main
+2019-03-06 20:15:37,082 [main] INFO  org.mule.module.apikit.MappingExceptionListener - Initialising exception listener: MappingExceptionListener{statusCode=404, exceptions=[class org.mule.module.apikit.exception.NotFoundException]}
+2019-03-06 20:15:37,082 [main] INFO  org.mule.module.apikit.MappingExceptionListener - Initialising exception listener: MappingExceptionListener{statusCode=405, exceptions=[class org.mule.module.apikit.exception.MethodNotAllowedException]}
+2019-03-06 20:15:37,082 [main] INFO  org.mule.module.apikit.MappingExceptionListener - Initialising exception listener: MappingExceptionListener{statusCode=415, exceptions=[class org.mule.module.apikit.exception.UnsupportedMediaTypeException]}
+2019-03-06 20:15:37,082 [main] INFO  org.mule.module.apikit.MappingExceptionListener - Initialising exception listener: MappingExceptionListener{statusCode=406, exceptions=[class org.mule.module.apikit.exception.NotAcceptableException]}
+2019-03-06 20:15:37,082 [main] INFO  org.mule.module.apikit.MappingExceptionListener - Initialising exception listener: MappingExceptionListener{statusCode=400, exceptions=[class org.mule.module.apikit.exception.BadRequestException]}
+2019-03-06 20:15:37,129 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: flights-main.stage1
+2019-03-06 20:15:37,145 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: get:/flights:flights-config
+2019-03-06 20:15:37,145 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@44cffc25
+2019-03-06 20:15:37,160 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: get:/flights:flights-config.stage1
+2019-03-06 20:15:37,160 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: post:/flights:flights-config
+2019-03-06 20:15:37,160 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@38ed139b
+2019-03-06 20:15:37,160 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: post:/flights:flights-config.stage1
+2019-03-06 20:15:37,192 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Mule Practise\Pradyu\.mule\.\.mule\ramlapi\queue-tx-log\tx1.log and C:\Mule Practise\Pradyu\.mule\.\.mule\ramlapi\queue-tx-log\tx2.log
+2019-03-06 20:15:37,192 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Mule Practise\Pradyu\.mule\.\.mule\ramlapi\queue-xa-tx-log\tx1.log and C:\Mule Practise\Pradyu\.mule\.\.mule\ramlapi\queue-xa-tx-log\tx2.log
+2019-03-06 20:15:38,802 [main] INFO  org.mule.module.apikit.Configuration - Building resource URI cache...
+2019-03-06 20:15:39,248 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Mule Practise\Pradyu\.mule\apps\ramlapi\flights.xml'}]"
+2019-03-06 20:15:39,264 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Mule Practise\Pradyu\.mule\apps\ramlapi\flights.xml'}]"
+2019-03-06 20:15:39,264 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'ramlapi'                                   +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 20:15:39,264 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2019-03-06 20:15:39,264 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2019-03-06 20:15:39,993 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8081
+2019-03-06 20:15:40,010 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 20:15:40,010 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2019-03-06 20:15:40,026 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: flights-main
+2019-03-06 20:15:40,026 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: flights-main.stage1
+2019-03-06 20:15:40,057 [main] INFO  org.mule.module.apikit.Configuration - 
+********************************************************************************
+* APIKit Console URL: http://127.0.0.1:8081/api/console                        *
+********************************************************************************
+2019-03-06 20:15:40,057 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: get:/flights:flights-config
+2019-03-06 20:15:40,057 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: get:/flights:flights-config.stage1
+2019-03-06 20:15:40,057 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: post:/flights:flights-config
+2019-03-06 20:15:40,057 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: post:/flights:flights-config.stage1
+2019-03-06 20:15:40,432 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2019-03-06 20:15:40,530 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: ramlapi                                               *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   JMX Agent                                                        *
+*   DevKit Extension Information                                     *
+*   Batch module default engine                                      *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2019-03-06 20:41:52,028 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'ramlapi'                               +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 20:41:52,403 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2019-03-06 20:41:52,512 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2019-03-06 20:41:52,647 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2019-03-06 20:41:52,647 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.7)
+2019-03-06 20:41:52,726 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@5911e990: startup date [Wed Mar 06 20:41:52 GMT 2019]; root of context hierarchy
+2019-03-06 20:41:54,381 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-06 20:41:55,662 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2019-03-06 20:41:56,624 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2019-03-06 20:41:56,631 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: flights-main
+2019-03-06 20:41:56,633 [main] INFO  org.mule.module.apikit.MappingExceptionListener - Initialising exception listener: MappingExceptionListener{statusCode=404, exceptions=[class org.mule.module.apikit.exception.NotFoundException]}
+2019-03-06 20:41:56,640 [main] INFO  org.mule.module.apikit.MappingExceptionListener - Initialising exception listener: MappingExceptionListener{statusCode=405, exceptions=[class org.mule.module.apikit.exception.MethodNotAllowedException]}
+2019-03-06 20:41:56,640 [main] INFO  org.mule.module.apikit.MappingExceptionListener - Initialising exception listener: MappingExceptionListener{statusCode=415, exceptions=[class org.mule.module.apikit.exception.UnsupportedMediaTypeException]}
+2019-03-06 20:41:56,642 [main] INFO  org.mule.module.apikit.MappingExceptionListener - Initialising exception listener: MappingExceptionListener{statusCode=406, exceptions=[class org.mule.module.apikit.exception.NotAcceptableException]}
+2019-03-06 20:41:56,643 [main] INFO  org.mule.module.apikit.MappingExceptionListener - Initialising exception listener: MappingExceptionListener{statusCode=400, exceptions=[class org.mule.module.apikit.exception.BadRequestException]}
+2019-03-06 20:41:56,668 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: flights-main.stage1
+2019-03-06 20:41:56,684 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: get:/flights:flights-config
+2019-03-06 20:41:56,684 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@671d1157
+2019-03-06 20:41:56,700 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: get:/flights:flights-config.stage1
+2019-03-06 20:41:56,700 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: post:/flights:flights-config
+2019-03-06 20:41:56,700 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@372ca2d6
+2019-03-06 20:41:56,716 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: post:/flights:flights-config.stage1
+2019-03-06 20:41:56,731 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Mule Practise\Pradyu\.mule\.\.mule\ramlapi\queue-tx-log\tx1.log and C:\Mule Practise\Pradyu\.mule\.\.mule\ramlapi\queue-tx-log\tx2.log
+2019-03-06 20:41:56,747 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Mule Practise\Pradyu\.mule\.\.mule\ramlapi\queue-xa-tx-log\tx1.log and C:\Mule Practise\Pradyu\.mule\.\.mule\ramlapi\queue-xa-tx-log\tx2.log
+2019-03-06 20:41:57,700 [main] INFO  org.mule.module.apikit.Configuration - Building resource URI cache...
+2019-03-06 20:41:57,994 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Mule Practise\Pradyu\.mule\apps\ramlapi\flights.xml'}]"
+2019-03-06 20:41:57,994 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Mule Practise\Pradyu\.mule\apps\ramlapi\flights.xml'}]"
+2019-03-06 20:41:57,994 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'ramlapi'                                   +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 20:41:57,994 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2019-03-06 20:41:57,994 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2019-03-06 20:41:58,072 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8081
+2019-03-06 20:41:58,072 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-06 20:41:58,072 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2019-03-06 20:41:58,088 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: flights-main
+2019-03-06 20:41:58,088 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: flights-main.stage1
+2019-03-06 20:41:58,103 [main] INFO  org.mule.module.apikit.Configuration - 
+********************************************************************************
+* APIKit Console URL: http://127.0.0.1:8081/api/console                        *
+********************************************************************************
+2019-03-06 20:41:58,103 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: get:/flights:flights-config
+2019-03-06 20:41:58,103 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: get:/flights:flights-config.stage1
+2019-03-06 20:41:58,119 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: post:/flights:flights-config
+2019-03-06 20:41:58,119 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: post:/flights:flights-config.stage1
+2019-03-06 20:41:58,197 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2019-03-06 20:41:58,259 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: ramlapi                                               *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   JMX Agent                                                        *
+*   DevKit Extension Information                                     *
+*   Batch module default engine                                      *
+*   Wrapper Manager                                                  *
+**********************************************************************
